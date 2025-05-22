@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="rogues-civ-illyria" version="1" xmlns="ModInfo">
+	<Properties>
+		<Name>Rogue's Civs - Illyria (Antiquity)</Name>
+		<Description>Adds Illyria as a playable civilization in the Antiquity Age. AI Generated Content Disclosure: The Gradina icon was generated using AI.</Description>
+		<Authors>RogueAustralian</Authors>
+		<Version>0.1</Version>
+		<AffectsSavedGames>1</AffectsSavedGames>
+
+	</Properties>
+	<Dependencies>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+	</Dependencies>
+	<References>
+		<Mod id="rogues-civ-venice" title="LOC_MODULE_VENICE_NAME"/>
+		<Mod id="rogues-civ-venice" title="LOC_MODULE_VENICE_DESCRIPTION"/>
+		<Mod id="bulgaria" title="LOC_MODULE_BULGARIA_NAME"/>
+		<Mod id="bulgaria" title="LOC_MODULE_BULGARIA_DESCRIPTION"/>
+	</References>
+	<ActionCriteria>
+		<Criteria id="antiquity-age-current">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-current">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+		</Criteria>
+		<Criteria id="modern-age-current">
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="antiquity-age-persist" any="true">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-persist" any="true">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="venice-current">
+			<ModInUse>rogues-civ-venice</ModInUse>
+		</Criteria>
+		<Criteria id="bulgaria-current">
+			<ModInUse>bulgaria</ModInUse>
+		</Criteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+	</ActionCriteria>
+	<ActionGroups>
+		<ActionGroup id="rogues-civ-illyria" scope="game" criteria="always">
+			<Actions>
+				<ImportFiles>
+                    <Item>assets/icon/illyria.png</Item>
+                    <Item>assets/icon/gradina.png</Item>
+                    <Item>assets/icon/cult_illyria.png</Item>
+                    <Item>assets/icon/civ_sym_illyria</Item>
+                </ImportFiles>
+				<UpdateIcons>
+					<Item>icons/icons.xml</Item>
+				</UpdateIcons>
+				<UpdateDatabase>
+					<Item>data/civilizations-legacy.xml</Item>
+					<Item>data/named-places.xml</Item>
+					<Item>data/progression-trees-culture-unique-gameeffects.xml</Item>	<!-- will return to this -->
+					<Item>data/progression-trees-culture-unique.xml</Item>				<!-- will return to this -->
+					<Item>data/traditions-gameeffects.xml</Item>						<!-- will return to this -->
+					<Item>data/traditions.xml</Item>									<!-- will return to this -->
+					<Item>data/unlocks-base-standard.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/CultureText.xml</Item>
+					<Item>text/en_us/CivilopediaText.xml</Item>			<!-- will return to this -->
+					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/NamedPlacesText.xml</Item>
+					<Item>text/en_us/UnlockText.xml</Item>				<!-- will return to this -->
+					<Item>text/en_us/CivilizationLegacyText.xml</Item>
+					<Item>text/en_us/AttributesText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-antiquity-main-illyria" scope="game" criteria="antiquity-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/unlocks-antiquity.xml</Item>
+					
+					<Item>data/citizen-names.xml</Item>
+
+					<Item>data/civilizations-antiquity.xml</Item>
+					<Item>data/civilizations-gameeffects.xml</Item>
+					<Item>data/constructibles-no-persist.xml</Item>
+					<Item>data/loading-info-antiquity.xml</Item>
+					<Item>data/progression-trees-tech.xml</Item> <!-- We'll get back to this -->
+					<Item>data/units.xml</Item>
+					<Item>data/units-gameeffects.xml</Item>
+					<Item>data/unlocks-antiquity.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/CitizenNamesText.xml</Item>
+					<Item>text/en_us/CivilizationText.xml</Item>
+					<Item>text/en_us/UnitText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-antiquity-persist-illyria" scope="game" criteria="antiquity-age-persist">
+
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/constructibles.xml</Item>
+					<Item>data/constructibles-gameeffects.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/CityNamesText.xml</Item>
+					<Item>text/en_us/ConstructibleText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="rogue-civ-main-illyria-venice" scope="game" criteria="venice-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/unlocks-venice.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="rogue-civ-main-illyria-bulgaria" scope="game" criteria="bulgaria-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/unlocks-bulgaria.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="rogue-civ-illyria-shell" scope="shell" criteria="always">
+			<Actions>
+				<ImportFiles>
+                    <Item>assets/icon/illyria.png</Item>
+                    <Item>assets/icon/gradina.png</Item>
+                    <Item>assets/icon/cult_illyria.png</Item>
+                    <Item>assets/icon/civ_sym_illyria</Item>
+                </ImportFiles>
+				<UpdateIcons>
+					<Item>icons/icons.xml</Item>
+				</UpdateIcons>
+				<UpdateDatabase>
+					<Item>config/config.xml</Item>
+					<Item>config/config-venice.xml</Item>
+					<Item>config/config-bulgaria.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/CultureText.xml</Item>
+					<Item>text/en_us/CivilopediaText.xml</Item>			<!-- will return to this -->
+					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/NamedPlacesText.xml</Item>
+					<Item>text/en_us/UnlockText.xml</Item>				<!-- will return to this -->
+					<Item>text/en_us/CivilizationLegacyText.xml</Item>
+					<Item>text/en_us/AttributesText.xml</Item>
+					<Item>text/en_us/CityNamesText.xml</Item>
+					<Item>text/en_us/ConstructibleText.xml</Item>
+					<Item>text/en_us/CitizenNamesText.xml</Item>
+					<Item>text/en_us/CivilizationText.xml</Item>
+					<Item>text/en_us/UnitText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+	</ActionGroups>
+</Mod>

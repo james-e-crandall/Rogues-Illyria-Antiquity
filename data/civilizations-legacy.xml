@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- Major Civs -->
+		<Row Type="TRAIT_ILLYRIA" Kind="KIND_TRAIT"/>
+		<Row Type="CIVILIZATION_ILLYRIA" Kind="KIND_CIVILIZATION"/>
+	</Types>
+	<LegacyCivilizations>
+		<!-- Full Civs -->
+		<Row CivilizationType="CIVILIZATION_ILLYRIA" Name="LOC_CIVILIZATION_ILLYRIA_NAME" FullName="LOC_CIVILIZATION_ILLYRIA_FULLNAME" Adjective="LOC_CIVILIZATION_ILLYRIA_ADJECTIVE" Age="AGE_ANTIQUITY"/>
+	</LegacyCivilizations>
+	<LegacyCivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA" TraitType="TRAIT_ILLYRIA"/>
+	</LegacyCivilizationTraits>
+	<Traits>
+		<Row TraitType="TRAIT_ILLYRIA" InternalOnly="true"/>
+	</Traits>
+	<LegacyLeaderCivPriorities>
+		<!-- <Row Leader="LEADER_MACHIAVELLI" CivilizationType="CIVILIZATION_ILLYRIA"/> -->
+	</LegacyLeaderCivPriorities>
+</Database>

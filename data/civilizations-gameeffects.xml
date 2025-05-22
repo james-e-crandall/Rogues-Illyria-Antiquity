@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- ==================================================	-->
+	<!--				Civ-Specific Traits					-->
+	<!-- ==================================================	-->
+	<Modifier id="TRAIT_MOD_ILLYRIAN_WALLS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_GRANT_WALLS" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_FOUNDED_BY_UNIT_TYPE">
+				<Argument name="UnitType">UNIT_OIKAIDES</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+		<Argument name="BuildingType">BUILDING_ANCIENT_WALLS</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_ILLYRIAN_NAVY" collection="COLLECTION_OWNER" effect="EFFECT_CITY_GRANT_UNIT" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_COMPLETED_PROGRESSION_TREE_NODE">
+				<Argument name="ProgressionTreeNodeType">NODE_TECH_AQ_SAILING</Argument>
+				<Argument name="MinDepth">1</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_FOUNDED_BY_UNIT_TYPE">
+				<Argument name="UnitType">UNIT_OIKAIDES</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="UnitType">UNIT_LEMBUS</Argument>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+	<!-- ==================================================	-->
+	<!--				Civ-Specific Trees					-->
+	<!-- ==================================================	-->
+
+	<Modifier id="MOD_REVEAL_CIV_CULTURE_TREE_ILLYRIA" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_ILLYRIA</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_AQ_ILLYRIA</Argument>
+	</Modifier>
+	<!-- ==================================================	-->
+	<!--				Wonder Bonuses						-->
+	<!-- ==================================================	-->
+</GameEffects>

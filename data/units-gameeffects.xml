@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- ==================================================	-->
+	<!--	Unique Abilities							-->
+	<!-- ==================================================	-->
+	<Modifier id="OIKAIDES_MOD_GRANT_ABILITY_CHARGE" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_UNIT_ABILITY_CHARGE" permanent="true">
+        <Argument name="ChargedAbilityType">CHARGED_ABILITY_LAND_CLAIM</Argument>
+        <Argument name="Amount">1</Argument>
+	</Modifier>
+
+	<Modifier id="BALKAN_CONFEDERACY_MOD_UNIT_COMBAT_STRENGTH_MODIFIER" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_OPPONENT_IS_INDEPENDENT"/>
+		</SubjectRequirements>
+		<Argument name="Amount">5</Argument>
+		<String context="Preview">LOC_TRADITION_BALKAN_CONFEDERACY_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="LORDS_OF_THE_ADRIATIC_MOD_COMBAT_STRENGTH_MODIFIER" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_IS_COASTAL"/>
+		</SubjectRequirements>
+		<Argument name="Amount">3</Argument>
+		<String context="Preview">LOC_TRADITION_LORDS_OF_THE_ADRIATIC_DESCRIPTION</String>
+	</Modifier>
+</GameEffects>

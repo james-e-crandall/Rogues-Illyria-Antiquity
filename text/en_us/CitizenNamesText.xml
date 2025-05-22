@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- ILLYRIA -->
+		<Row Tag="LOC_CITIZEN_ILLYRIA_MALE_1">
+			<Text>Agron</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ILLYRIA_MALE_2">
+			<Text>Bardylis</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ILLYRIA_MALE_3">
+			<Text>Teutanion</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ILLYRIA_MALE_4">
+			<Text>Grabos</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ILLYRIA_MALE_5">
+			<Text>Pleuratus</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ILLYRIA_MALE_6">
+			<Text>Glaucias</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ILLYRIA_MALE_7">
+			<Text>Monunius</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ILLYRIA_MALE_8">
+			<Text>Epicadus</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ILLYRIA_MALE_9">
+			<Text>Cersobleptes</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ILLYRIA_MALE_10">
+			<Text>Scerdilaidas</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ILLYRIA_FEMALE_1">
+			<Text>Teuta</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ILLYRIA_FEMALE_2">
+			<Text>Triteuta</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ILLYRIA_FEMALE_3">
+			<Text>Etuta</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ILLYRIA_FEMALE_4">
+			<Text>Platoria</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ILLYRIA_FEMALE_5">
+			<Text>Birkenna</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ILLYRIA_FEMALE_6">
+			<Text>Dites</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ILLYRIA_FEMALE_7">
+			<Text>Anzila</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ILLYRIA_FEMALE_8">
+			<Text>Gentia</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ILLYRIA_FEMALE_9">
+			<Text>Ircena</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ILLYRIA_FEMALE_10">
+			<Text>Skena</Text>
+		</Row>
+	</EnglishText>
+</Database>

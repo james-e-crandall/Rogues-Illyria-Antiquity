@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_LOADING_CIV_INTRO_TEXT_ILLYRIA">
+			<Text>From the windswept coasts to the rugged highlands, the Illyrians thrived as warriors, traders, and raiders. Their mastery of the sea made them a force to be reckoned with, striking swiftly from their swift ships and fortified settlements. Skilled in both battle and diplomacy, they built powerful alliances while fiercely defending their independence. With a tradition of strength and resilience, they challenged larger empires and shaped the tides of history through war and commerce. Their warriors were unmatched in the hills, their fleets untamed on the waters, and their ambition knew no borders.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_VO_ILLYRIA">
+			<Text>Will you unite the confederacy and reclaim dominion over the waves, or will history wash your name away like the tides?</Text>
+		</Row>
+	</EnglishText>
+</Database>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_UNIT_OIKAIDES_NAME">
+			<Text>Oikaiadēs</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_OIKAIDES_DESCRIPTION">
+			<Text>Illyrian Unique Settler. Naval Unit. Additional movement and sight. May settle on tiles adjacent to unit.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_OIKAIDES_LAND_CLAIM_NAME">
+			<Text>Colonize</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_OIKAIDES_LAND_CLAIM_DESCRIPTION">
+			<Text>Claim a tile adjacent to the unit.</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_LEMBUS_NAME">
+			<Text>Lembus</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_LEMBUS_BASE_DESCRIPTION">
+			<Text>Unique Naval Unit. Faster and cheaper than its counterpart.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_LEMBUS_DESCRIPTION">
+			<Text>Tier 2 Illyrian Unique Naval Unit. Faster and cheaper than its counterpart.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_LEMBUS_2_DESCRIPTION">
+			<Text>Tier 3 Illyrian Unique Naval Unit. Faster and cheaper than its counterpart.</Text>
+		</Row>
+	</EnglishText>
+</Database>

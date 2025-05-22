@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--ILLYRIA-->
+		<Row Tag="LOC_CITY_NAME_ILLYRIA1">
+			<Text>Rhizon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA2">
+			<Text>Shkodra</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA3">
+			<Text>Lissus</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA4">
+			<Text>Byllis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA5">
+			<Text>Dimale</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA6">
+			<Text>Epidamnos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA7">
+			<Text>Apollonia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA8">
+			<Text>Daorson</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA9">
+			<Text>Delminium</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA10">
+			<Text>Scodra</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA11">
+			<Text>Metion</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA12">
+			<Text>Issa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA13">
+			<Text>Tanais</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA14">
+			<Text>Segestica</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA15">
+			<Text>Sardos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA16">
+			<Text>Berzita</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA17">
+			<Text>Oeneon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA18">
+			<Text>Ulkinion</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA19">
+			<Text>Theranda</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA20">
+			<Text>Drivastum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA21">
+			<Text>Ardianon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA22">
+			<Text>Taulantia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA23">
+			<Text>Dardanon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA24">
+			<Text>Autariaton</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA25">
+			<Text>Pannonion</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA26">
+			<Text>Scodrion</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA27">
+			<Text>Delmion</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA28">
+			<Text>Labion</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA29">
+			<Text>Breukon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILLYRIA30">
+			<Text>Pirustium</Text>
+		</Row>
+	</EnglishText>
+</Database>

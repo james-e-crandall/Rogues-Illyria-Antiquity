@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<LeaderCivilizationBias>
+		<!-- <Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_SUMER" LeaderDomain="StandardLeaders" LeaderType="LEADER_MACHIAVELLI" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_SUMER_MACHIAVELLI_TOOLTIP" ChoiceType="LOC_CREATE_GAME_HISTORICAL_CHOICE"/> -->
+	</LeaderCivilizationBias>
+	<Civilizations>
+		<Row Domain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ILLYRIA" CivilizationName="LOC_CIVILIZATION_ILLYRIA_NAME" CivilizationFullName="LOC_CIVILIZATION_ILLYRIA_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_ILLYRIA_DESCRIPTION" CivilizationIcon="illyria.png"/>
+	</Civilizations>
+	<CivilizationItems>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ILLYRIA" Type="TRAIT_ILLYRIA" Kind="KIND_TRAIT" Name="LOC_TRAIT_ILLYRIA_NAME" Description="LOC_TRAIT_ILLYRIA_DESCRIPTION"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ILLYRIA" Type="UNIT_OIKAIDES" Kind="KIND_UNIT" Name="LOC_UNIT_OIKAIDES_NAME" Description="LOC_UNIT_OIKAIDES_DESCRIPTION" Icon="UNIT_OIKAIDES"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ILLYRIA" Type="UNIT_LEMBUS" Kind="KIND_UNIT" Name="LOC_UNIT_LEMBUS_NAME" Description="LOC_UNIT_LEMBUS_BASE_DESCRIPTION" Icon="UNIT_LEMBUS"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ILLYRIA" Type="IMPROVEMENT_GRADINA" Kind="KIND_IMPROVEMENT" Name="LOC_IMPROVEMENT_GRADINA_NAME" Description="LOC_IMPROVEMENT_GRADINA_DESCRIPTION" Icon="IMPROVEMENT_GRADINA"/>
+	</CivilizationItems>
+	<CivilizationTags>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ILLYRIA" TagType="TAG_TRAIT_EXPANSIONIST"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ILLYRIA" TagType="TAG_TRAIT_MILITARISTIC"/>
+	</CivilizationTags>
+	<LeaderUnlocks>
+	</LeaderUnlocks>
+	<CivilizationUnlocks>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ILLYRIA" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_SPAIN" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_SPAIN_NAME" Description="LOC_CIVILIZATION_SPAIN_DESCRIPTION" Icon="ICON_CIVILIZATION_SPAIN"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ILLYRIA" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_NORMAN" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_NORMAN_NAME" Description="LOC_CIVILIZATION_NORMAN_DESCRIPTION" Icon="ICON_CIVILIZATION_NORMAN"/>
+	</CivilizationUnlocks>
+</Database>

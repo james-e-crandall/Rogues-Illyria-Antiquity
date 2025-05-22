@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_CONSTRUCTIBLE"/>
+	</Kinds>
+	<Types>
+		<!--Civ Unique Improvements-->
+		<Row Type="IMPROVEMENT_GRADINA" Kind="KIND_CONSTRUCTIBLE"/>
+	</Types>
+	<Constructibles>
+		<Row ConstructibleType="IMPROVEMENT_GRADINA" Name="LOC_IMPROVEMENT_GRADINA_NAME" Description="LOC_IMPROVEMENT_GRADINA_DESCRIPTION" Tooltip="LOC_IMPROVEMENT_GRADINA_TOOLTIP" ConstructibleClass="IMPROVEMENT" Cost="30" Population="1" Age="AGE_ANTIQUITY" RequiresUnlock="true"/>
+	</Constructibles>
+
+	<Improvements>
+		<!--Civ Unique Improvements-->
+		<Row ConstructibleType="IMPROVEMENT_GRADINA" ResourceTier="0" CityBuildable="true" TraitType="TRAIT_ILLYRIA" SameAdjacentValid="true"/>
+	</Improvements>
+
+	<Constructible_YieldChanges>
+		<Row ConstructibleType="IMPROVEMENT_GRADINA" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+	</Constructible_YieldChanges>
+
+	<TypeTags>
+		<Row Type="IMPROVEMENT_GRADINA" Tag="UNIQUE_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_GRADINA" Tag="AGELESS"/>
+		<Row Type="IMPROVEMENT_GRADINA" Tag="FORTIFICATION"/>
+	</TypeTags>
+
+	<Constructible_ValidDistricts>
+		<Row ConstructibleType="IMPROVEMENT_GRADINA" DistrictType="DISTRICT_RURAL"/>
+	</Constructible_ValidDistricts>
+
+
+	<Constructible_ValidTerrains>
+		<Row ConstructibleType="IMPROVEMENT_GRADINA" TerrainType="TERRAIN_HILL"/>
+	</Constructible_ValidTerrains>
+
+	<Constructible_Adjacencies>
+		<Row ConstructibleType="IMPROVEMENT_GRADINA" YieldChangeId="GradinaResourceGold"/>
+		<Row ConstructibleType="IMPROVEMENT_GRADINA" YieldChangeId="GradinaChainGold"/>
+	</Constructible_Adjacencies>
+	<Constructible_Advisories>
+		<Row ConstructibleType="IMPROVEMENT_GRADINA" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
+	</Constructible_Advisories>
+	<Adjacency_YieldChanges>
+       <Row ID="GradinaResourceGold" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentResource="true"/>
+		<Row ID="GradinaChainGold" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentConstructible="IMPROVEMENT_GRADINA"/>
+	</Adjacency_YieldChanges>
+
+</Database>

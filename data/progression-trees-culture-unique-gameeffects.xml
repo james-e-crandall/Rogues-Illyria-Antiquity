@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+    <Modifier id="MOD_TEGENON_BRETE_SETTLEMENT_CAP" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_SETTLEMENT_CAP" permanent="true">
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_MOD_TEGENON_BRETE_SETTLEMENT_CAP_DESCRIPTION</String>
+	</Modifier>
+    
+    <Modifier id="MOD_PLATON_VALETES_SETTLEMENT_CAP" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_SETTLEMENT_CAP" permanent="true">
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_MOD_TEGENON_BRETE_SETTLEMENT_CAP_DESCRIPTION</String>
+	</Modifier>
+     <Modifier id="MOD_PLATON_VALETES_LEMBAS_BOOST" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_MOVEMENT" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_NAVAL</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_MOD_PLATON_VALETES_LEMBAS_BOOST_DESCRIPTION</String>
+	</Modifier>
+
+    <Modifier id="MOD_STABION_UDANON_COAST_STRONK" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLOT_ADJACENT_TO_COAST"/>
+        </SubjectRequirements>
+		<Argument name="ConstructibleType">BUILDING_CITY_HALL</Argument>
+		<Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="Amount">2</Argument>
+		<String context="Description">LOC_MOD_STABION_UDANON_COAST_STRONK_DESCRIPTION</String>
+	</Modifier>
+</GameEffects>

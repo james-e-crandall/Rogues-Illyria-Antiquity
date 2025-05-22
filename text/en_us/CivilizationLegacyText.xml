@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <EnglishText>
+    <!--Civilization Names-->
+    <Row Tag="LOC_CIVILIZATION_ILLYRIA_NAME">
+      <Text>Illyria</Text>
+    </Row>
+    <!--Civilization Full Names-->
+    <Row Tag="LOC_CIVILIZATION_ILLYRIA_FULLNAME">
+      <Text>Illyria</Text>
+    </Row>
+    <!--Civilization Adjectives-->
+    <Row Tag="LOC_CIVILIZATION_ILLYRIA_ADJECTIVE">
+      <Text>Illyrian</Text>
+    </Row>
+  </EnglishText>
+
+</Database>

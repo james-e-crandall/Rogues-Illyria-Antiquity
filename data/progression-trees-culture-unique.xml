@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!--Civ Unique Mastery Trees-->
+		<Row Type="TREE_CIVICS_AQ_ILLYRIA" Kind="KIND_TREE"/>
+		<!--Civ Unique Mastery Tree Nodes-->
+		<!--ILLYRIA-->
+		<Row Type="NODE_CIVIC_AQ_ILLYRIA_TEGENON_BRETE" Kind="KIND_TREE_NODE"/>
+		<Row Type="NODE_CIVIC_AQ_ILLYRIA_PLATON_VALETES" Kind="KIND_TREE_NODE"/>
+		<Row Type="NODE_CIVIC_AQ_ILLYRIA_STABION_UDANON" Kind="KIND_TREE_NODE"/>
+	</Types>
+	<TypeQuotes>
+		
+		<!-- <Row Type="NODE_CIVIC_AQ_ILLYRIA_MIYASKA_LATOWEKI" Quote="LOC_CIVIC_MIYASKA_LATOWEKI_QUOTE" QuoteAuthor="LOC_CIVIC_MIYASKA_LATOWEKI_QUOTE_AUTHOR" QuoteAudio="VO_Quote_Miyasaka"/> -->
+		<!-- <Row Type="NODE_CIVIC_AQ_ILLYRIA_MALEKI_KINTAKE" Quote="LOC_CIVIC_MALEKI_KINTAKE_QUOTE" QuoteAuthor="LOC_CIVIC_MALEKI_KINTAKE_QUOTE_AUTHOR" QuoteAudio="VO_Quote_MalekiKintake"/> -->
+	</TypeQuotes>
+	<ProgressionTrees>
+		<!--Civ Unique Mastery Trees-->
+		<Row ProgressionTreeType="TREE_CIVICS_AQ_ILLYRIA" AgeType="AGE_ANTIQUITY" SystemType="SYSTEM_CULTURE" Name="LOC_TREE_CIVICS_AQ_ILLYRIA_NAME"/>
+	</ProgressionTrees>
+	<ProgressionTreeNodes>
+		<!--Civ Unique Mastery Tree Nodes-->
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_TEGENON_BRETE" ProgressionTree="TREE_CIVICS_AQ_ILLYRIA" Cost="114" Name="LOC_CIVIC_TEGENON_BRETE_NAME" IconString="cult_illyria"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_PLATON_VALETES" ProgressionTree="TREE_CIVICS_AQ_ILLYRIA" Cost="114" Name="LOC_CIVIC_PLATON_VALETES_NAME" IconString="cult_illyria"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_STABION_UDANON" ProgressionTree="TREE_CIVICS_AQ_ILLYRIA" Cost="126" Name="LOC_CIVIC_STABION_UDANON_NAME" IconString="cult_illyria"/>
+	</ProgressionTreeNodes>
+	<ProgressionTreeNodeUnlocks>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_TEGENON_BRETE" TargetKind="KIND_CONSTRUCTIBLE" TargetType="IMPROVEMENT_GRADINA" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_TEGENON_BRETE" TargetKind="KIND_MODIFIER" TargetType="MOD_TEGENON_BRETE_SETTLEMENT_CAP" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_TEGENON_BRETE" TargetKind="KIND_TRADITION" TargetType="TRADITION_BALKAN_CONFEDERACY" UnlockDepth="1"/>
+
+		
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_PLATON_VALETES" TargetKind="KIND_MODIFIER" TargetType="MOD_PLATON_VALETES_LEMBAS_BOOST" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_PLATON_VALETES" TargetKind="KIND_MODIFIER" TargetType="MOD_PLATON_VALETES_SETTLEMENT_CAP" UnlockDepth="1"/>	
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_PLATON_VALETES" TargetKind="KIND_TRADITION" TargetType="TRADITION_DREAD_OF_EPIDAMNOS" UnlockDepth="1"/>
+
+		
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_STABION_UDANON" TargetKind="KIND_MODIFIER" TargetType="MOD_STABION_UDANON_COAST_STRONK" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_STABION_UDANON" TargetKind="KIND_TRADITION" TargetType="TRADITION_LORDS_OF_THE_ADRIATIC" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_STABION_UDANON" TargetKind="KIND_TRADITION" TargetType="TRADITION_BARDYLIS_LEGACY" UnlockDepth="1"/>
+	</ProgressionTreeNodeUnlocks>
+	<ProgressionTreePrereqs>
+		<Row Node="NODE_CIVIC_AQ_ILLYRIA_STABION_UDANON" PrereqNode="NODE_CIVIC_AQ_ILLYRIA_PLATON_VALETES"/>
+		<Row Node="NODE_CIVIC_AQ_ILLYRIA_STABION_UDANON" PrereqNode="NODE_CIVIC_AQ_ILLYRIA_TEGENON_BRETE"/>
+	</ProgressionTreePrereqs>
+</Database>
