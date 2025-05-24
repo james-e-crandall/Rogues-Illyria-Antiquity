@@ -11,25 +11,23 @@
 		<Row Type="ABILITY_LORDS_OF_THE_ADRIATIC" Kind="KIND_ABILITY"/>
 	</Types>
 	<Units>
-		<Row UnitType="UNIT_OIKAIDES" Name="LOC_UNIT_OIKAIDES_NAME" Description="LOC_UNIT_OIKAIDES_DESCRIPTION" BaseSightRange="2" BaseMoves="3" PrereqPopulation="5" Domain="DOMAIN_SEA" UnitMovementClass="UNIT_MOVEMENT_CLASS_NAVAL" CoreClass="CORE_CLASS_SUPPORT" FormationClass="FORMATION_CLASS_NAVAL" ZoneOfControl="false" FoundCity="true" CostProgressionModel="COST_PROGRESSION_NUM_SETTLEMENTS" CostProgressionParam1="20" TraitType="TRAIT_ILLYRIA"/>
+		<Row UnitType="UNIT_OIKAIDES" Name="LOC_UNIT_OIKAIDES_NAME" Description="LOC_UNIT_OIKAIDES_DESCRIPTION" Tier="2" Maintenance="1" BaseSightRange="2" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_NAVAL" Domain="DOMAIN_SEA" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_NAVAL" ZoneOfControl="true" TraitType="TRAIT_ILLYRIA"/>
 		<Row UnitType="UNIT_LEMBUS" Name="LOC_UNIT_LEMBUS_NAME" Description="LOC_UNIT_LEMBUS_DESCRIPTION" Tier="2" Maintenance="1" BaseSightRange="2" BaseMoves="4" UnitMovementClass="UNIT_MOVEMENT_CLASS_NAVAL" Domain="DOMAIN_SEA" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_NAVAL" ZoneOfControl="true" TraitType="TRAIT_ILLYRIA"/>
 		<Row UnitType="UNIT_LEMBUS_2" Name="LOC_UNIT_LEMBUS_NAME" Description="LOC_UNIT_LEMBUS_2_DESCRIPTION" Tier="3" Maintenance="2" BaseSightRange="2" BaseMoves="4" UnitMovementClass="UNIT_MOVEMENT_CLASS_NAVAL" Domain="DOMAIN_SEA" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_NAVAL" ZoneOfControl="true" TraitType="TRAIT_ILLYRIA"/>	
 	</Units>
 	<Unit_Stats>
-		<Row UnitType="UNIT_LEMBUS" Combat="25" RangedCombat="20" Bombard="15" Range="1"/>
-		<Row UnitType="UNIT_LEMBUS_2" Combat="30" RangedCombat="25" Bombard="20" Range="1"/>
+		<Row UnitType="UNIT_LEMBUS" Combat="25" RangedCombat="20" Bombard="15" Range="2"/>
+		<Row UnitType="UNIT_LEMBUS_2" Combat="30" RangedCombat="25" Bombard="20" Range="2"/>
 	</Unit_Stats>
 	<Unit_Costs>
-		<Row UnitType="UNIT_OIKAIDES" YieldType="YIELD_PRODUCTION" Cost="65"/>
-		<Row UnitType="UNIT_LEMBUS" YieldType="YIELD_PRODUCTION" Cost="45"/>
-		<Row UnitType="UNIT_LEMBUS_2" YieldType="YIELD_PRODUCTION" Cost="82"/>
+		<Row UnitType="UNIT_OIKAIDES" YieldType="YIELD_PRODUCTION" Cost="30"/>
+		<Row UnitType="UNIT_LEMBUS" YieldType="YIELD_PRODUCTION" Cost="50"/>
+		<Row UnitType="UNIT_LEMBUS_2" YieldType="YIELD_PRODUCTION" Cost="90"/>
 	</Unit_Costs>
-	
 	<UnitUpgrades>
 		<Row Unit="UNIT_LEMBUS" UpgradeUnit="UNIT_LEMBUS_2"/>
 	</UnitUpgrades>
 	<UnitReplaces>
-		<Row CivUniqueUnitType="UNIT_OIKAIDES" ReplacesUnitType="UNIT_SETTLER"/>
 		<Row CivUniqueUnitType="UNIT_LEMBUS" ReplacesUnitType="UNIT_GALLEY"/>
 		<Row CivUniqueUnitType="UNIT_LEMBUS_2" ReplacesUnitType="UNIT_QUADRIREME"/>
 	</UnitReplaces>
@@ -40,11 +38,10 @@
 	</Tags>
 	<TypeTags>
 		<!--Civ Unique Civilian-->
-		<Row Type="UNIT_OIKAIDES" Tag="UNIT_CLASS_OIKAIDES"/>
-		<Row Type="UNIT_OIKAIDES" Tag="UNIT_CLASS_CREATE_TOWN"/>
 		<Row Type="UNIT_OIKAIDES" Tag="UNIT_CLASS_RECON_ABILITIES"/>
-		<Row Type="UNIT_OIKAIDES" Tag="UNIT_CLASS_ALTERNATE_SETTLE"/>
-
+		<Row Type="UNIT_OIKAIDES" Tag="UNIT_CLASS_NAVAL_STEALTH"/>
+		<Row Type="UNIT_OIKAIDES" Tag="UNIT_CLASS_OIKAIDES"/>
+		
 		<Row Type="UNIT_LEMBUS" Tag="UNIT_CLASS_COMBAT"/>
 		<Row Type="UNIT_LEMBUS" Tag="UNIT_CLASS_MELEE"/>
 		<Row Type="UNIT_LEMBUS" Tag="UNIT_CLASS_NAVAL"/>
@@ -55,15 +52,13 @@
 		<Row Type="UNIT_LEMBUS_2" Tag="UNIT_CLASS_LEMBUS"/>
 	</TypeTags>
 	<UnitClass_Abilities>
-		<Row UnitAbilityType="ABILITY_OIKAIDES" UnitClassType="UNIT_CLASS_OIKAIDES"/>
+		<!-- <Row UnitAbilityType="ABILITY_OIKAIDES" UnitClassType="UNIT_CLASS_OIKAIDES"/> -->
 	</UnitClass_Abilities>
 	<UnitAbilities>
-		<Row UnitAbilityType="ABILITY_OIKAIDES" Name="LOC_ABILITY_OIKAIDES_LAND_CLAIM_NAME" Description="LOC_ABILITY_OIKAIDES_LAND_CLAIM_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_BALKAN_CONFEDERACY" Inactive="true" Description="LOC_TRADITION_BALKAN_CONFEDERACY_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_LORDS_OF_THE_ADRIATIC" Inactive="true" Description="LOC_TRADITION_LORDS_OF_THE_ADRIATIC_DESCRIPTION"/>
 	</UnitAbilities>
 	<UnitAbilityModifiers>
-		<Row UnitAbilityType="ABILITY_OIKAIDES" ModifierId="OIKAIDES_MOD_GRANT_ABILITY_CHARGE"/>
 		<Row UnitAbilityType="ABILITY_BALKAN_CONFEDERACY" ModifierId="BALKAN_CONFEDERACY_MOD_UNIT_COMBAT_STRENGTH_MODIFIER"/>
 		<Row UnitAbilityType="ABILITY_LORDS_OF_THE_ADRIATIC" ModifierId="LORDS_OF_THE_ADRIATIC_MOD_COMBAT_STRENGTH_MODIFIER"/>
 	</UnitAbilityModifiers>

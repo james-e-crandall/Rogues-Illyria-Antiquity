@@ -12,18 +12,22 @@
 		<Row>
 			<ID>CIVILIZATION_ILLYRIA</ID>
 			<Context>BACKGROUND</Context>
-			<Path>fs://game/lsbg_aksum_1080</Path>
+			<Path>fs://game/rogues-civ-illyria/lsbg_illyria_1080</Path>
 			<IconSize>1080</IconSize>
 		</Row>
 		<Row>
 			<ID>CIVILIZATION_ILLYRIA</ID>
 			<Context>BACKGROUND</Context>
-			<Path>fs://game/lsbg_aksum_720</Path>
+			<Path>fs://game/rogues-civ-illyria/lsbg_illyria_720</Path>
 			<IconSize>720</IconSize>
 		</Row>
 		<Row>
+			<ID>civ_line_illyria</ID>
+			<Path>fs://game/rogues-civ-illyria/civ_line_illyria.png</Path>
+		</Row>
+		<Row>
 			<ID>UNIT_OIKAIDES</ID>
-			<Path>blp:unitflag_settler</Path>
+			<Path>fs://game/rogues-civ-illyria/unitflag_oikaides.png</Path>
 		</Row>
 		<Row>
 			<ID>UNIT_LEMBUS</ID>
@@ -34,7 +38,7 @@
 			<Path>blp:unitflag_quadrireme</Path>
 		</Row>
 		<Row>
-			<ID>IMPROVEMENT_GRADINA</ID>
+			<ID>BUILDING_GRADINA</ID>
 			<Path>fs://game/rogues-civ-illyria/gradina.png</Path>
 		</Row>
 	</IconDefinitions>

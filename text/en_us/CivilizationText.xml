@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<EnglishText>
-		<!-- text change since Sumeria has a unique resource -->
-		<!-- <Row Tag="LOC_CREATE_CIV_UNIQUE_BONUSES_SUBTITLE">
-			<Text>Unique Resources</Text>
-		</Row> -->
-
-
 		<!--Civilization Traits-->
 		<Row Tag="LOC_TRAIT_ILLYRIA_NAME">
 			<Text>Masters of the Adriatic</Text>
@@ -18,12 +12,5 @@
 			<Text>[LIST][LI]When you found a [B]Coastal Settlement[/B] other than your capital, receive a free [B]Naval Combat Unit[/B] and [B]Walls[/B] in it.[/LIST]</Text>
 		</Row>
 
-		<!-- <Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_ILLYRIA_DESCRIPTION">
-			<Text>+30%[icon:YIELD_PRODUCTION] Production from being Sumer's associated Wonder.</Text>
-		</Row>
-
-		<Row Tag="LOC_MOD_ILLYRIA_START_WITH_WRITING_DESCRIPTION">
-			<Text>Unlock the [B]Writing[/B] technology.</Text>
-		</Row> -->
 	</EnglishText>
 </Database>

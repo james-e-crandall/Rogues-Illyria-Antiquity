@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<CivilizationUnlocks>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ILLYRIA" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_BULGARIA" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_BULGARIA_NAME" Description="LOC_CIVILIZATION_BULGARIA_DESCRIPTION" Icon="ICON_CIVILIZATION_BULGARIA"/>
+	</CivilizationUnlocks>
+</Database>

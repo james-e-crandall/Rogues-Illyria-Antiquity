@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+
+	<!-- +++++++++++++++++++++++++++++++++++ -->
+	<!-- Compatablity with ynamp "Greatest Earth Map" start position -->
+	 <!-- https://www.sukrittan.com/Mod_Apps/TSLPlanner/?Map=GreatestEarthMap -->
+	<!-- +++++++++++++++++++++++++++++++++++ -->
+
+	<StartPosition>
+		<!-- Civ7 -->
+		<Replace MapName="GreatestEarthMap" Civilization="CIVILIZATION_ILLYRIA"			X="53"	Y="46" />
+    </StartPosition>
+
+
+</Database>

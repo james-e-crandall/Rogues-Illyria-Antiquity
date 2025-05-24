@@ -3,11 +3,6 @@
 	<!-- ==================================================	-->
 	<!--	Unique Abilities							-->
 	<!-- ==================================================	-->
-	<Modifier id="OIKAIDES_MOD_GRANT_ABILITY_CHARGE" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_UNIT_ABILITY_CHARGE" permanent="true">
-        <Argument name="ChargedAbilityType">CHARGED_ABILITY_LAND_CLAIM</Argument>
-        <Argument name="Amount">1</Argument>
-	</Modifier>
-
 	<Modifier id="BALKAN_CONFEDERACY_MOD_UNIT_COMBAT_STRENGTH_MODIFIER" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_OPPONENT_IS_INDEPENDENT"/>

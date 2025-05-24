@@ -12,10 +12,10 @@
 		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
 	</Dependencies>
 	<References>
-		<Mod id="rogues-civ-venice" title="LOC_MODULE_VENICE_NAME"/>
+		<!-- <Mod id="rogues-civ-venice" title="LOC_MODULE_VENICE_NAME"/>
 		<Mod id="rogues-civ-venice" title="LOC_MODULE_VENICE_DESCRIPTION"/>
 		<Mod id="bulgaria" title="LOC_MODULE_BULGARIA_NAME"/>
-		<Mod id="bulgaria" title="LOC_MODULE_BULGARIA_DESCRIPTION"/>
+		<Mod id="bulgaria" title="LOC_MODULE_BULGARIA_DESCRIPTION"/> -->
 	</References>
 	<ActionCriteria>
 		<Criteria id="antiquity-age-current">
@@ -36,17 +36,54 @@
 			<AgeInUse>AGE_EXPLORATION</AgeInUse>
 			<AgeInUse>AGE_MODERN</AgeInUse>
 		</Criteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
 		<Criteria id="venice-current">
 			<ModInUse>rogues-civ-venice</ModInUse>
 		</Criteria>
 		<Criteria id="bulgaria-current">
 			<ModInUse>bulgaria</ModInUse>
 		</Criteria>
-		<Criteria id="always">
-			<AlwaysMet></AlwaysMet>
-		</Criteria>
+        <Criteria all="true" id="ged-ynamp-enable">
+            <ModInUse>ged-ynamp</ModInUse>
+        </Criteria>
+        <Criteria all="true" id="izica-unit-portrait-visual-remaps-enable">
+            <ModInUse>izica-unit-portrait-visual-remaps</ModInUse>
+        </Criteria>
 	</ActionCriteria>
 	<ActionGroups>
+		<!-- Optional compatability -->
+		<ActionGroup id="base-game-main-ged-ynamp" scope="game" criteria="ged-ynamp-enable">
+			<!-- ynamp compatability -->
+			<Actions>
+                <UpdateDatabase>
+					<Item>ynamp/data/greatest-earth.xml</Item>
+                </UpdateDatabase>
+            </Actions>
+		</ActionGroup>
+		<ActionGroup id="izica-unit-portrait-visual-remaps" scope="game" criteria="izica-unit-portrait-visual-remaps-enable">
+			<Actions>
+				<UIScripts>
+					<Item>ui/game.js</Item>
+				</UIScripts>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="rogue-civ-main-illyria-venice" scope="game" criteria="venice-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>venice/data/unlocks-venice.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="rogue-civ-main-illyria-bulgaria" scope="game" criteria="bulgaria-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>bulgaria/data/unlocks-bulgaria.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<!-- standard -->
 		<ActionGroup id="rogues-civ-illyria" scope="game" criteria="always">
 			<Actions>
 				<ImportFiles>
@@ -54,6 +91,9 @@
                     <Item>assets/icon/gradina.png</Item>
                     <Item>assets/icon/cult_illyria.png</Item>
                     <Item>assets/icon/civ_sym_illyria</Item>
+					<Item>assets/icon/lsbg_illyria_1080</Item>
+					<Item>assets/icon/lsbg_illyria_720</Item>
+					<Item>assets/icon/unitflag_oikaides.png</Item>
                 </ImportFiles>
 				<UpdateIcons>
 					<Item>icons/icons.xml</Item>
@@ -114,20 +154,6 @@
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="rogue-civ-main-illyria-venice" scope="game" criteria="venice-current">
-			<Actions>
-				<UpdateDatabase>
-					<Item>data/unlocks-venice.xml</Item>
-				</UpdateDatabase>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="rogue-civ-main-illyria-bulgaria" scope="game" criteria="bulgaria-current">
-			<Actions>
-				<UpdateDatabase>
-					<Item>data/unlocks-bulgaria.xml</Item>
-				</UpdateDatabase>
-			</Actions>
-		</ActionGroup>
 		<ActionGroup id="rogue-civ-illyria-shell" scope="shell" criteria="always">
 			<Actions>
 				<ImportFiles>
@@ -135,14 +161,17 @@
                     <Item>assets/icon/gradina.png</Item>
                     <Item>assets/icon/cult_illyria.png</Item>
                     <Item>assets/icon/civ_sym_illyria</Item>
+					<Item>assets/icon/lsbg_illyria_1080</Item>
+					<Item>assets/icon/lsbg_illyria_720</Item>
+					<Item>assets/icon/unitflag_oikaides.png</Item>
                 </ImportFiles>
 				<UpdateIcons>
 					<Item>icons/icons.xml</Item>
 				</UpdateIcons>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
-					<Item>config/config-venice.xml</Item>
-					<Item>config/config-bulgaria.xml</Item>
+					<Item>venice/config/config-venice.xml</Item>
+					<Item>bulgaria/config/config-bulgaria.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/CultureText.xml</Item>

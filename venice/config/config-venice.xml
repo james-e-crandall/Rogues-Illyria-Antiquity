@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<CivilizationUnlocks>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ILLYRIA" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_VENICE" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_VENICE_NAME" Description="LOC_CIVILIZATION_VENICE_DESCRIPTION" Icon="ICON_CIVILIZATION_ILLYRIA"/>
+	</CivilizationUnlocks>
+</Database>

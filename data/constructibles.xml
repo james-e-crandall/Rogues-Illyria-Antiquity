@@ -4,47 +4,73 @@
 		<InsertOrIgnore Kind="KIND_CONSTRUCTIBLE"/>
 	</Kinds>
 	<Types>
-		<!--Civ Unique Improvements-->
-		<Row Type="IMPROVEMENT_GRADINA" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="BUILDING_GRADINA" Kind="KIND_CONSTRUCTIBLE"/>
 	</Types>
 	<Constructibles>
-		<Row ConstructibleType="IMPROVEMENT_GRADINA" Name="LOC_IMPROVEMENT_GRADINA_NAME" Description="LOC_IMPROVEMENT_GRADINA_DESCRIPTION" Tooltip="LOC_IMPROVEMENT_GRADINA_TOOLTIP" ConstructibleClass="IMPROVEMENT" Cost="30" Population="1" Age="AGE_ANTIQUITY" RequiresUnlock="true"/>
+		<Row ConstructibleType="BUILDING_GRADINA" Name="LOC_BUILDING_GRADINA_NAME" Description="LOC_BUILDING_GRADINA_DESCRIPTION" Tooltip="LOC_BUILDING_GRADINA_TOOLTIP" ConstructibleClass="BUILDING" Cost="55" Population="1" RequiresUnlock="true"/>
 	</Constructibles>
-
+	<Buildings>
+		<Row ConstructibleType="BUILDING_GRADINA" Movable="false"/>
+	</Buildings>
 	<Improvements>
-		<!--Civ Unique Improvements-->
-		<Row ConstructibleType="IMPROVEMENT_GRADINA" ResourceTier="0" CityBuildable="true" TraitType="TRAIT_ILLYRIA" SameAdjacentValid="true"/>
 	</Improvements>
-
-	<Constructible_YieldChanges>
-		<Row ConstructibleType="IMPROVEMENT_GRADINA" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
-	</Constructible_YieldChanges>
-
 	<TypeTags>
-		<Row Type="IMPROVEMENT_GRADINA" Tag="UNIQUE_IMPROVEMENT"/>
-		<Row Type="IMPROVEMENT_GRADINA" Tag="AGELESS"/>
-		<Row Type="IMPROVEMENT_GRADINA" Tag="FORTIFICATION"/>
+		<Row Type="BUILDING_GRADINA" Tag="FOOD"/>
+		<Row Type="BUILDING_GRADINA" Tag="WAREHOUSE"/>
+		<Row Type="BUILDING_GRADINA" Tag="AGELESS"/>
+		<Row Type="BUILDING_GRADINA" Tag="PERSISTENT"/>
 	</TypeTags>
 
 	<Constructible_ValidDistricts>
-		<Row ConstructibleType="IMPROVEMENT_GRADINA" DistrictType="DISTRICT_RURAL"/>
+		<Row ConstructibleType="BUILDING_GRADINA" DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_GRADINA" DistrictType="DISTRICT_URBAN"/>
 	</Constructible_ValidDistricts>
 
+	<Constructible_YieldChanges>
+		<Row ConstructibleType="BUILDING_GRADINA" YieldType="YIELD_FOOD" YieldChange="1"/>
+	</Constructible_YieldChanges>
+
+	<Constructible_Maintenances>
+		<Row ConstructibleType="BUILDING_GRADINA" YieldType="YIELD_GOLD" Amount="1"/>
+		<Row ConstructibleType="BUILDING_GRADINA" YieldType="YIELD_HAPPINESS" Amount="1"/>
+	</Constructible_Maintenances>
 
 	<Constructible_ValidTerrains>
-		<Row ConstructibleType="IMPROVEMENT_GRADINA" TerrainType="TERRAIN_HILL"/>
 	</Constructible_ValidTerrains>
 
 	<Constructible_Adjacencies>
-		<Row ConstructibleType="IMPROVEMENT_GRADINA" YieldChangeId="GradinaResourceGold"/>
-		<Row ConstructibleType="IMPROVEMENT_GRADINA" YieldChangeId="GradinaChainGold"/>
 	</Constructible_Adjacencies>
-	<Constructible_Advisories>
-		<Row ConstructibleType="IMPROVEMENT_GRADINA" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
-	</Constructible_Advisories>
+
 	<Adjacency_YieldChanges>
-       <Row ID="GradinaResourceGold" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentResource="true"/>
-		<Row ID="GradinaChainGold" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentConstructible="IMPROVEMENT_GRADINA"/>
 	</Adjacency_YieldChanges>
+
+	<Constructible_WarehouseYields>
+		<Row ConstructibleType="BUILDING_GRADINA" YieldChangeId="FishingQuayFishingBoatResourceFood"/>
+		<Row ConstructibleType="BUILDING_GRADINA" YieldChangeId="FishingQuayReefFeatureFood"/>
+		<Row ConstructibleType="BUILDING_GRADINA" YieldChangeId="FishingQuayColdReefFeatureFood"/>
+		<Row ConstructibleType="BUILDING_GRADINA" YieldChangeId="FishingQuayCoastTerrainFood"/>
+		<Row ConstructibleType="BUILDING_GRADINA" YieldChangeId="FishingQuayNavigableRiverFood"/>
+	</Constructible_WarehouseYields>
+
+	<Constructible_Plunders>
+		<Row ConstructibleType="BUILDING_GRADINA" PlunderType="PLUNDER_GOLD" Amount="40"/>
+	</Constructible_Plunders>
+	
+	<Constructible_Advisories>
+		<Row ConstructibleType="BUILDING_GRADINA" AdvisoryClassType="ADVISORY_CLASS_FOOD"/>
+		<Row ConstructibleType="BUILDING_GRADINA" AdvisoryClassType="ADVISORY_CLASS_SCIENCE"/>
+	</Constructible_Advisories>
+
+	<UniqueQuarters>
+		<Row UniqueQuarterType="QUARTER_VLORE" BuildingType1="BUILDING_FISHING_QUAY" BuildingType2="BUILDING_LIGHTHOUSE" Name="LOC_QUARTER_GRADINA_NAME" Description="LOC_QUARTER_GRADINA_DESCRIPTION" Tooltip="LOC_QUARTER_GRADINA_TOOLTIP" TraitType="TRAIT_ILLYRIA"/>
+	</UniqueQuarters>
+
+	<GameModifiers>
+		<Row ModifierId="MOD_QUARTER_VLORE_AQUATIC_HAPPIENSS"/>
+	</GameModifiers>
+	<!-- These are listed here so the AI can evalutate Unique Quarters. They do not have any effects on the game for human players. -->
+	<UniqueQuarterModifiers>
+		<Row UniqueQuarterType="QUARTER_VLORE" ModifierId="MOD_QUARTER_VLORE_AQUATIC_HAPPIENSS"/>
+	</UniqueQuarterModifiers>
 
 </Database>

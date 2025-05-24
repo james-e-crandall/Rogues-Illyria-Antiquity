@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Database>
+    <VisualRemaps>
+    <!-- subei -->
+        <Row>
+            <ID>REMAP_UNIT_OIKAIDES</ID>
+            <DisplayName>LOC_UNIT_WAR_CHARIOT_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_OIKAIDES</From>
+            <To>UNIT_CARRACK</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_LEMBUS</ID>
+            <DisplayName>LOC_UNIT_LEMBUS_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_LEMBUS</From>
+            <To>UNIT_GALLEY</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_LEMBUS_2</ID>
+            <DisplayName>LOC_UNIT_LEMBUS_2_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_LEMBUS_2</From>
+            <To>UNIT_QUADRIREME</To>
+        </Row>
+               
+        
+    </VisualRemaps>
+</Database>
+<!-- generated with https://github.com/izica/civ7-modding-tools -->

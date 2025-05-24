@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_UNLOCK"/>
+	</Kinds>
+	<UnlockRequirements>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_BULGARIA" RequirementSetId="REQSET_CIVILIZATION_IS_ILLYRIA" Description="LOC_UNLOCK_PLAY_AS_ILLYRIA_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_ILLYRIA_TOOLTIP"/>
+	</UnlockRequirements>
+	<UnlockConfigurationValues>
+	</UnlockConfigurationValues>
+</Database>
