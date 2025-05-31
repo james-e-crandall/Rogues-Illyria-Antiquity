@@ -62,7 +62,7 @@
 	</Constructible_Advisories>
 
 	<UniqueQuarters>
-		<Row UniqueQuarterType="QUARTER_VLORE" BuildingType1="BUILDING_FISHING_QUAY" BuildingType2="BUILDING_LIGHTHOUSE" Name="LOC_QUARTER_GRADINA_NAME" Description="LOC_QUARTER_GRADINA_DESCRIPTION" Tooltip="LOC_QUARTER_GRADINA_TOOLTIP" TraitType="TRAIT_ILLYRIA"/>
+		<Row UniqueQuarterType="QUARTER_VLORE" BuildingType1="BUILDING_FISHING_QUAY" BuildingType2="BUILDING_LIGHTHOUSE" Name="LOC_QUARTER_VLORE_NAME" Description="LOC_QUARTER_VLORE_DESCRIPTION" Tooltip="LOC_QUARTER_VLORE_TOOLTIP" TraitType="TRAIT_ILLYRIA"/>
 	</UniqueQuarters>
 
 	<GameModifiers>

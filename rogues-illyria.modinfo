@@ -12,10 +12,10 @@
 		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
 	</Dependencies>
 	<References>
-		<!-- <Mod id="rogues-civ-venice" title="LOC_MODULE_VENICE_NAME"/>
+		<Mod id="rogues-civ-venice" title="LOC_MODULE_VENICE_NAME"/>
 		<Mod id="rogues-civ-venice" title="LOC_MODULE_VENICE_DESCRIPTION"/>
 		<Mod id="bulgaria" title="LOC_MODULE_BULGARIA_NAME"/>
-		<Mod id="bulgaria" title="LOC_MODULE_BULGARIA_DESCRIPTION"/> -->
+		<Mod id="bulgaria" title="LOC_MODULE_BULGARIA_DESCRIPTION"/>
 	</References>
 	<ActionCriteria>
 		<Criteria id="antiquity-age-current">
@@ -154,6 +154,20 @@
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
+		<ActionGroup id="rogue-civ-main-illyria-venice-shell" scope="shell" criteria="venice-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>venice/config/config-venice.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="rogue-civ-main-illyria-bulgaria-shell" scope="shell" criteria="bulgaria-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>venice/config/config-venice.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
 		<ActionGroup id="rogue-civ-illyria-shell" scope="shell" criteria="always">
 			<Actions>
 				<ImportFiles>
@@ -170,8 +184,6 @@
 				</UpdateIcons>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
-					<Item>venice/config/config-venice.xml</Item>
-					<Item>bulgaria/config/config-bulgaria.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/CultureText.xml</Item>

@@ -5,7 +5,7 @@
 			<Text>Oikaiadēs</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_OIKAIDES_DESCRIPTION">
-			<Text>Illyrian Unique Naval Unit. Civilian pathfinder, ideal for revealing Terrain and discovering new locations.</Text>
+			<Text>Illyrian Unique Naval Unit. Pathfinder, ideal for revealing Terrain and discovering new locations.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_LEMBUS_NAME">
 			<Text>Lembus</Text>

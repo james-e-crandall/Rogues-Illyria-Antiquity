@@ -16,6 +16,7 @@
 		<Row UnitType="UNIT_LEMBUS_2" Name="LOC_UNIT_LEMBUS_NAME" Description="LOC_UNIT_LEMBUS_2_DESCRIPTION" Tier="3" Maintenance="2" BaseSightRange="2" BaseMoves="4" UnitMovementClass="UNIT_MOVEMENT_CLASS_NAVAL" Domain="DOMAIN_SEA" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_NAVAL" ZoneOfControl="true" TraitType="TRAIT_ILLYRIA"/>	
 	</Units>
 	<Unit_Stats>
+		<Row UnitType="UNIT_OIKAIDES" Combat="5" RangedCombat="5" Range="1"/>
 		<Row UnitType="UNIT_LEMBUS" Combat="25" RangedCombat="20" Bombard="15" Range="2"/>
 		<Row UnitType="UNIT_LEMBUS_2" Combat="30" RangedCombat="25" Bombard="20" Range="2"/>
 	</Unit_Stats>
@@ -28,6 +29,7 @@
 		<Row Unit="UNIT_LEMBUS" UpgradeUnit="UNIT_LEMBUS_2"/>
 	</UnitUpgrades>
 	<UnitReplaces>
+		
 		<Row CivUniqueUnitType="UNIT_LEMBUS" ReplacesUnitType="UNIT_GALLEY"/>
 		<Row CivUniqueUnitType="UNIT_LEMBUS_2" ReplacesUnitType="UNIT_QUADRIREME"/>
 	</UnitReplaces>
@@ -38,8 +40,9 @@
 	</Tags>
 	<TypeTags>
 		<!--Civ Unique Civilian-->
+		<Row Type="UNIT_OIKAIDES" Tag="UNIT_CLASS_COMBAT"/>
 		<Row Type="UNIT_OIKAIDES" Tag="UNIT_CLASS_RECON_ABILITIES"/>
-		<Row Type="UNIT_OIKAIDES" Tag="UNIT_CLASS_NAVAL_STEALTH"/>
+		<Row Type="UNIT_OIKAIDES" Tag="UNIT_CLASS_NAVAL"/>
 		<Row Type="UNIT_OIKAIDES" Tag="UNIT_CLASS_OIKAIDES"/>
 		
 		<Row Type="UNIT_LEMBUS" Tag="UNIT_CLASS_COMBAT"/>
