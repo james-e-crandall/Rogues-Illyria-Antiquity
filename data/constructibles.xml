@@ -7,25 +7,28 @@
 		<Row Type="BUILDING_GRADINA" Kind="KIND_CONSTRUCTIBLE"/>
 	</Types>
 	<Constructibles>
-		<Row ConstructibleType="BUILDING_GRADINA" Name="LOC_BUILDING_GRADINA_NAME" Description="LOC_BUILDING_GRADINA_DESCRIPTION" Tooltip="LOC_BUILDING_GRADINA_TOOLTIP" ConstructibleClass="BUILDING" Cost="55" Population="1" RequiresUnlock="true"/>
+		<Row ConstructibleType="BUILDING_GRADINA" Name="LOC_BUILDING_GRADINA_NAME" Description="LOC_BUILDING_GRADINA_DESCRIPTION" Tooltip="LOC_BUILDING_GRADINA_TOOLTIP" ConstructibleClass="BUILDING" RiverPlacement="ANCHORED" Cost="55" Population="1" MilitaryDomain="DOMAIN_SEA"/>
 	</Constructibles>
 	<Buildings>
-		<Row ConstructibleType="BUILDING_GRADINA" Movable="false"/>
+		<Row ConstructibleType="BUILDING_GRADINA" Movable="false" TraitType="TRAIT_ILLYRIA"/>
 	</Buildings>
 	<Improvements>
 	</Improvements>
 	<TypeTags>
 		<Row Type="BUILDING_GRADINA" Tag="FOOD"/>
-		<Row Type="BUILDING_GRADINA" Tag="WAREHOUSE"/>
 		<Row Type="BUILDING_GRADINA" Tag="AGELESS"/>
 		<Row Type="BUILDING_GRADINA" Tag="PERSISTENT"/>
+		<Row Type="BUILDING_GRADINA" Tag="WATER"/>
 	</TypeTags>
 
 	<Constructible_ValidDistricts>
 		<Row ConstructibleType="BUILDING_GRADINA" DistrictType="DISTRICT_CITY_CENTER"/>
 		<Row ConstructibleType="BUILDING_GRADINA" DistrictType="DISTRICT_URBAN"/>
 	</Constructible_ValidDistricts>
-
+	<Constructible_ValidTerrains>
+		<Row ConstructibleType="BUILDING_GRADINA" TerrainType="TERRAIN_COAST"/>
+		<Row ConstructibleType="BUILDING_GRADINA" TerrainType="TERRAIN_NAVIGABLE_RIVER"/>
+	</Constructible_ValidTerrains>
 	<Constructible_YieldChanges>
 		<Row ConstructibleType="BUILDING_GRADINA" YieldType="YIELD_FOOD" YieldChange="1"/>
 	</Constructible_YieldChanges>
@@ -39,17 +42,14 @@
 	</Constructible_ValidTerrains>
 
 	<Constructible_Adjacencies>
+		<Row ConstructibleType="BUILDING_GRADINA" YieldChangeId="GradinaResourceFood"/>
 	</Constructible_Adjacencies>
 
 	<Adjacency_YieldChanges>
+		<Row ID="GradinaResourceFood" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" AdjacentResource="true"/>
 	</Adjacency_YieldChanges>
 
 	<Constructible_WarehouseYields>
-		<Row ConstructibleType="BUILDING_GRADINA" YieldChangeId="FishingQuayFishingBoatResourceFood"/>
-		<Row ConstructibleType="BUILDING_GRADINA" YieldChangeId="FishingQuayReefFeatureFood"/>
-		<Row ConstructibleType="BUILDING_GRADINA" YieldChangeId="FishingQuayColdReefFeatureFood"/>
-		<Row ConstructibleType="BUILDING_GRADINA" YieldChangeId="FishingQuayCoastTerrainFood"/>
-		<Row ConstructibleType="BUILDING_GRADINA" YieldChangeId="FishingQuayNavigableRiverFood"/>
 	</Constructible_WarehouseYields>
 
 	<Constructible_Plunders>
@@ -62,7 +62,7 @@
 	</Constructible_Advisories>
 
 	<UniqueQuarters>
-		<Row UniqueQuarterType="QUARTER_VLORE" BuildingType1="BUILDING_FISHING_QUAY" BuildingType2="BUILDING_LIGHTHOUSE" Name="LOC_QUARTER_VLORE_NAME" Description="LOC_QUARTER_VLORE_DESCRIPTION" Tooltip="LOC_QUARTER_VLORE_TOOLTIP" TraitType="TRAIT_ILLYRIA"/>
+		<Row UniqueQuarterType="QUARTER_VLORE" BuildingType1="BUILDING_GRADINA" BuildingType2="BUILDING_LIGHTHOUSE" Name="LOC_QUARTER_VLORE_NAME" Description="LOC_QUARTER_VLORE_DESCRIPTION" Tooltip="LOC_QUARTER_VLORE_TOOLTIP" TraitType="TRAIT_ILLYRIA"/>
 	</UniqueQuarters>
 
 	<GameModifiers>

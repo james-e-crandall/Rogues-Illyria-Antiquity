@@ -18,8 +18,6 @@
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ILLYRIA" TagType="TAG_TRAIT_EXPANSIONIST"/>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ILLYRIA" TagType="TAG_TRAIT_MILITARISTIC"/>
 	</CivilizationTags>
-	<LeaderUnlocks>
-	</LeaderUnlocks>
 	<CivilizationUnlocks>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ILLYRIA" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_SPAIN" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_SPAIN_NAME" Description="LOC_CIVILIZATION_SPAIN_DESCRIPTION" Icon="ICON_CIVILIZATION_SPAIN"/>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ILLYRIA" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_NORMAN" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_NORMAN_NAME" Description="LOC_CIVILIZATION_NORMAN_DESCRIPTION" Icon="ICON_CIVILIZATION_NORMAN"/>

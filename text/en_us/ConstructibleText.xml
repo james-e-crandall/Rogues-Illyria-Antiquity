@@ -5,17 +5,17 @@
 			<Text>Gradina</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_GRADINA_DESCRIPTION">
-			<Text>Illyrian Unique Warehouse Food Building. +1[icon:YIELD_FOOD] Food. +1[icon:YIELD_FOOD] Food on Fishing Boats. Warehouse Food Building.</Text>
+			<Text>Illyrian Unique Food Building. +1[icon:YIELD_FOOD] Food. +2[icon:YIELD_FOOD] Food for each adjacent Resource.</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_GRADINA_TOOLTIP">
-			<Text>+1[icon:YIELD_FOOD] Food. +1[icon:YIELD_FOOD] Food on Fishing Boats. Warehouse Food Building.</Text>
+			<Text>+1[icon:YIELD_FOOD] Food. +2[icon:YIELD_FOOD] Food for each adjacent Resource.</Text>
 		</Row>
 
 		<Row Tag="LOC_QUARTER_VLORE_NAME">
 			<Text>Vlorë</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_VLORE_DESCRIPTION">
-			<Text>Illyrian Unique Quarter. Created by constructing the Fishing Quea and Lighthouse in the same District. +2[icon:YIELD_HAPPINESS] Happienss on Coast tiles.</Text>
+			<Text>Illyrian Unique Quarter. Created by constructing the Gradina and Lighthouse in the same District. +2[icon:YIELD_HAPPINESS] Happienss on Coast tiles.</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_VLORE_TOOLTIP">
 			<Text>+2[icon:YIELD_HAPPINESS] Happienss on Coast tiles.</Text>
