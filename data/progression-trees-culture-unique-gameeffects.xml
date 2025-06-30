@@ -9,6 +9,7 @@
 		<Argument name="Amount">1</Argument>
 		<String context="Description">LOC_MOD_TEGENON_BRETE_SETTLEMENT_CAP_DESCRIPTION</String>
 	</Modifier>
+
      <Modifier id="MOD_PLATON_VALETES_LEMBAS_BOOST" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_MOVEMENT" permanent="true">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
@@ -19,13 +20,14 @@
 		<String context="Description">LOC_MOD_PLATON_VALETES_LEMBAS_BOOST_DESCRIPTION</String>
 	</Modifier>
 
-    <Modifier id="MOD_STABION_UDANON_COAST_STRONK" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
-        <SubjectRequirements>
-            <Requirement type="REQUIREMENT_PLOT_ADJACENT_TO_COAST"/>
-        </SubjectRequirements>
-		<Argument name="ConstructibleType">BUILDING_CITY_HALL</Argument>
-		<Argument name="YieldType">YIELD_FOOD</Argument>
-		<Argument name="Amount">2</Argument>
-		<String context="Description">LOC_MOD_STABION_UDANON_COAST_STRONK_DESCRIPTION</String>
+	<Modifier id="MOD_ROG_NAVAL_PILLAGE_IMPROVEMENT" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ADJUST_UNIT_IMPROVEMENT_PILLAGE_YIELD_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_NAVAL</Argument>
+			</Requirement>
+		</SubjectRequirements>	
+		<Argument name="Amount">50</Argument>
+		<Argument name="PlunderTypes">PLUNDER_GOLD</Argument>
 	</Modifier>
+
 </GameEffects>

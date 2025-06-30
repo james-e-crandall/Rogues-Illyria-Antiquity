@@ -4,10 +4,7 @@
 		<Argument name="AbilityType">ABILITY_BALKAN_CONFEDERACY</Argument>
 		<String context="Description">LOC_TRADITION_BALKAN_CONFEDERACY_DESCRIPTION</String>
 	</Modifier>
-    <Modifier id="DREAD_OF_EPIDAMNOS_PILLAGE_IMPROVEMENT" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ADJUST_UNIT_IMPROVEMENT_PILLAGE_YIELD_MODIFIER">
-		<Argument name="Amount">75</Argument>
-		<Argument name="PlunderTypes">PLUNDER_GOLD</Argument>
-	</Modifier>
+
     <Modifier id="LORDS_OF_THE_ADRIATIC_MOD_COMBAT_STRENGTH" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
 		<Argument name="AbilityType">ABILITY_LORDS_OF_THE_ADRIATIC</Argument>
 		<String context="Description">LOC_TRADITION_LORDS_OF_THE_ADRIATIC_DESCRIPTION</String>
@@ -26,6 +23,16 @@
 		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
 		<Argument name="Amount">2</Argument>
 	</Modifier>
+    <Modifier id="MOD_MIYASKA_LATOWEKI_COAST_STRONK" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLOT_ADJACENT_TO_COAST"/>
+        </SubjectRequirements>
+		<Argument name="ConstructibleType">BUILDING_CITY_HALL</Argument>
+		<Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="Amount">2</Argument>
+		<String context="Description">LOC_MOD_MIYASKA_LATOWEKI_COAST_STRONK_DESCRIPTION</String>
+	</Modifier>
+
     <!-- <Modifier id="MOD_SUKU_RATIONS_FOOD" collection="COLLECTION_PLAYER_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
         <SubjectRequirements>
             <Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">

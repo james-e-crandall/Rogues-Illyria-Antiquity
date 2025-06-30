@@ -25,7 +25,7 @@
 		<Row Tag="LOC_MOD_PLATON_VALETES_LEMBAS_BOOST_DESCRIPTION">
 			<Text>Naval units receive +1 movement.</Text>
 		</Row>
-		<Row Tag="LOC_MOD_STABION_UDANON_COAST_STRONK_DESCRIPTION">
+		<Row Tag="LOC_MOD_MIYASKA_LATOWEKI_COAST_STRONK_DESCRIPTION">
 			<Text>Coastal settlements receive +2 Food.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_BALKAN_CONFEDERACY_NAME">
@@ -38,7 +38,7 @@
 			<Text>Dread of Epidamnos</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_DREAD_OF_EPIDAMNOS_DESCRIPTION">
-			<Text>Receive [icon:YIELD_GOLD] Gold when pillaging Improvements equal to 75% of the yield or HP gained.</Text>
+			<Text>Receive [icon:YIELD_GOLD] Gold when pillaging Improvements equal to 50% of the yield or HP gained.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_LORDS_OF_THE_ADRIATIC_NAME">
 			<Text>Lords of the Adriatic</Text>

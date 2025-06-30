@@ -16,8 +16,8 @@
 	</Traits>
 	<TraitModifiers>
 		<Row TraitType="TRAIT_ILLYRIA_ABILITY" ModifierId="MOD_REVEAL_CIV_CULTURE_TREE_ILLYRIA"/>
-		<Row TraitType="TRAIT_ILLYRIA_ABILITY" ModifierId="TRAIT_MOD_ILLYRIAN_WALLS"/>
-		<Row TraitType="TRAIT_ILLYRIA_ABILITY" ModifierId="TRAIT_MOD_ILLYRIAN_NAVY"/>
+		<Row TraitType="TRAIT_ILLYRIA_ABILITY" ModifierId="TRAIT_MOD_ILLYRIAN_WALLS_FOUNDER"/>
+		<Row TraitType="TRAIT_ILLYRIA_ABILITY" ModifierId="TRAIT_MOD_ILLYRIAN_WALLS_SETTLER"/>
 	</TraitModifiers>
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_ILLYRIA" TraitType="TRAIT_ANTIQUITY_CIV"/>
@@ -80,6 +80,7 @@
 	
 	<StartBiasResources>
 		<Row CivilizationType="CIVILIZATION_ILLYRIA" ResourceType="RESOURCE_FISH" Score="20"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA" ResourceType="RESOURCE_HARDWOOD" Score="5"/>
 	</StartBiasResources>
 	<StartBiasTerrains>
 		<Row CivilizationType="CIVILIZATION_ILLYRIA" TerrainType="TERRAIN_NAVIGABLE_RIVER" Score="30"/>
