@@ -47,7 +47,12 @@
 
 	<Adjacency_YieldChanges>
 		<Row ID="GradinaResourceFood" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" AdjacentResource="true"/>
+		<Row ID="PolydynastaeWildcardWaterCityCenterFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>
 	</Adjacency_YieldChanges>
+
+	<Constructible_WildcardAdjacencies>
+		<Row YieldChangeId="PolydynastaeWildcardWaterCityCenterFood" RequiresActivation="true" ConstructibleClass="WATER"/>
+	</Constructible_WildcardAdjacencies>
 
 	<Constructible_WarehouseYields>
 	</Constructible_WarehouseYields>

@@ -11,13 +11,13 @@
 			<Text>Lembus</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_LEMBUS_BASE_DESCRIPTION">
-			<Text>Unique Naval Unit. Stronger Range and Bombard Attack.</Text>
+			<Text>Unique Naval Unit. Stronger Ranged Attack.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_LEMBUS_DESCRIPTION">
-			<Text>Tier 2 Illyrian Unique Naval Unit. Stronger Range and Bombard Attack.</Text>
+			<Text>Tier 2 Illyrian Unique Naval Unit. Stronger Range Attack.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_LEMBUS_2_DESCRIPTION">
-			<Text>Tier 3 Illyrian Unique Naval Unit. FStronger Range and Bombard Attack.</Text>
+			<Text>Tier 3 Illyrian Unique Naval Unit. FStronger Range Attack.</Text>
 		</Row>
 	</EnglishText>
 </Database>

@@ -1,76 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
-    <Modifier id="BALKAN_CONFEDERACY_MOD_INDEPENDENT_COMBAT" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
-		<Argument name="AbilityType">ABILITY_BALKAN_CONFEDERACY</Argument>
-		<String context="Description">LOC_TRADITION_BALKAN_CONFEDERACY_DESCRIPTION</String>
+
+		<!-- TRADITION_ARDIAEI -->
+	<Modifier id="MOD_ROG_CITY_CENTER_FOOD_ADJACENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<Argument name="ConstructibleAdjacency">PolydynastaeWildcardWaterCityCenterFood</Argument>
 	</Modifier>
 
-    <Modifier id="LORDS_OF_THE_ADRIATIC_MOD_COMBAT_STRENGTH" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
-		<Argument name="AbilityType">ABILITY_LORDS_OF_THE_ADRIATIC</Argument>
-		<String context="Description">LOC_TRADITION_LORDS_OF_THE_ADRIATIC_DESCRIPTION</String>
-	</Modifier>
-	<Modifier id="BARDYLIS_LEGACY_MOD_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+	<!-- TRADITION_BARDYLIS_LEGACY -->
+	<Modifier id="MOD_ROG_CITIES_HAPPIENESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
         <SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_IS_ORIGINAL_OWNER" inverse="true"/>
 		</SubjectRequirements>
 		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
 		<Argument name="Amount">2</Argument>
 	</Modifier>
-    <Modifier id="BARDYLIS_LEGACY_MOD_INFLUENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+    <Modifier id="MOD_ROG_CITIES_DIPLOMACY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
         <SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_IS_ORIGINAL_OWNER" inverse="true"/>
 		</SubjectRequirements>
 		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
 		<Argument name="Amount">2</Argument>
 	</Modifier>
-    <Modifier id="MOD_MIYASKA_LATOWEKI_COAST_STRONK" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+
+	<!-- TRADITION_POLYDYNASTAE -->
+    <Modifier id="MOD_ROD_CITY_HALL_COAST_FOOD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
         <SubjectRequirements>
             <Requirement type="REQUIREMENT_PLOT_ADJACENT_TO_COAST"/>
         </SubjectRequirements>
 		<Argument name="ConstructibleType">BUILDING_CITY_HALL</Argument>
 		<Argument name="YieldType">YIELD_FOOD</Argument>
 		<Argument name="Amount">2</Argument>
-		<String context="Description">LOC_MOD_MIYASKA_LATOWEKI_COAST_STRONK_DESCRIPTION</String>
 	</Modifier>
 
-    <!-- <Modifier id="MOD_SUKU_RATIONS_FOOD" collection="COLLECTION_PLAYER_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
-        <SubjectRequirements>
-            <Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
-                <Argument name="DistrictClass">RURAL</Argument>
-            </Requirement>
-			<Requirement type="REQUIREMENT_PLOT_ADJACENT_TERRAIN_TYPE_MATCHES">
-				<Argument name="TerrainType">TERRAIN_FLOODPLAINS, TERRAIN_NAVIGABLE_RIVER</Argument>
-			</Requirement>
-        </SubjectRequirements>
-        <Argument name="YieldType">YIELD_FOOD</Argument>
-        <Argument name="Amount">1</Argument>
-        <String context="Description">LOC_MOD_SUKU_RATIONS_FOOD_DESCRIPTION</String>
-    </Modifier>
-    <Modifier id="MOD_TAMKARUM_CONTRACTS_TRADE_ROUTE_RANGE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_TRADE_ROUTE_RANGE">
-		<Argument name="Amount">5</Argument>
-		<String context="Description">LOC_MOD_TAMKARUM_CONTRACTS_TRADE_ROUTE_RANGE_DESCRIPTION</String>
-	</Modifier>
-    <Modifier id="MOD_ERUN_URUDA_SCIENCE_HAPPINESS" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
-		<Argument name="Amount">3</Argument>
-		<Argument name="Tag">SCIENCE</Argument>
-		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
-		<Argument name="Tooltip">LOC_TRADITION_ERUN_URUDA_NAME</Argument>
-		<String context="Description">LOC_MOD_ERUN_URUDA_SCIENCE_HAPPINESS_DESCRIPTION</String>
-	</Modifier>
-    <Modifier id="MOD_KI_SU_NI_GOLD" collection="COLLECTION_PLAYER_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
-        <SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES">
-				<Argument name="TerrainType">TERRAIN_HILL</Argument>
-			</Requirement>
-        </SubjectRequirements>
-        <Argument name="YieldType">YIELD_GOLD</Argument>
-        <Argument name="Amount">2</Argument>
-        <String context="Description">LOC_MOD_KI_SU_NI_GOLD_DESCRIPTION</String>
-    </Modifier>
-    <Modifier id="MOD_UKKIN_DIPLOMACY_YIELD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
-		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
-		<Argument name="Amount">3</Argument>
-		<Argument name="ConstructibleType">BUILDING_PALACE</Argument>
-		<String context="Description">LOC_MOD_UKKIN_DIPLOMACY_YIELD_DESCRIPTION</String>
-	</Modifier> -->
 </GameEffects>

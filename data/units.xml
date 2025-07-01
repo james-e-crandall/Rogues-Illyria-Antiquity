@@ -7,8 +7,8 @@
 		<Row Type="UNIT_LEMBUS_2" Kind="KIND_UNIT"/>
 
 		<Row Type="ABILITY_OIKAIDES" Kind="KIND_ABILITY"/>
-		<Row Type="ABILITY_BALKAN_CONFEDERACY" Kind="KIND_ABILITY"/>
-		<Row Type="ABILITY_LORDS_OF_THE_ADRIATIC" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_ROG_INDEPENDENT_COMBAT_STRENGTH" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_ROG_COASTAL_COMBAT_STRENGTH_MODIFIER_THE_ADRIATIC" Kind="KIND_ABILITY"/>
 	</Types>
 	<Units>
 		<Row UnitType="UNIT_OIKAIDES" Name="LOC_UNIT_OIKAIDES_NAME" Description="LOC_UNIT_OIKAIDES_DESCRIPTION" Tier="2" Maintenance="1" BaseSightRange="2" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_NAVAL" Domain="DOMAIN_SEA" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_NAVAL" ZoneOfControl="true" TraitType="TRAIT_ILLYRIA"/>
@@ -17,8 +17,8 @@
 	</Units>
 	<Unit_Stats>
 		<Row UnitType="UNIT_OIKAIDES" Combat="5" RangedCombat="5" Range="1"/>
-		<Row UnitType="UNIT_LEMBUS" Combat="25" RangedCombat="30" Bombard="25" Range="2"/>
-		<Row UnitType="UNIT_LEMBUS_2" Combat="30" RangedCombat="35" Bombard="30" Range="2"/>
+		<Row UnitType="UNIT_LEMBUS" Combat="25" RangedCombat="30" Bombard="15" Range="2"/>
+		<Row UnitType="UNIT_LEMBUS_2" Combat="30" RangedCombat="35" Bombard="20" Range="2"/>
 	</Unit_Stats>
 	<Unit_Costs>
 		<Row UnitType="UNIT_OIKAIDES" YieldType="YIELD_PRODUCTION" Cost="30"/>
@@ -58,12 +58,12 @@
 		<!-- <Row UnitAbilityType="ABILITY_OIKAIDES" UnitClassType="UNIT_CLASS_OIKAIDES"/> -->
 	</UnitClass_Abilities>
 	<UnitAbilities>
-		<Row UnitAbilityType="ABILITY_BALKAN_CONFEDERACY" Inactive="true" Description="LOC_TRADITION_BALKAN_CONFEDERACY_DESCRIPTION"/>
-		<Row UnitAbilityType="ABILITY_LORDS_OF_THE_ADRIATIC" Inactive="true" Description="LOC_TRADITION_LORDS_OF_THE_ADRIATIC_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_ROG_INDEPENDENT_COMBAT_STRENGTH" Inactive="true" Description="LOC_ABILITY_ROG_INDEPENDENT_COMBAT_STRENGTH_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_ROG_COASTAL_COMBAT_STRENGTH_MODIFIER" Inactive="true" Description="LOC_ABILITY_ROG_COASTAL_COMBAT_STRENGTH_MODIFIER_DESCRIPTION"/>
 	</UnitAbilities>
 	<UnitAbilityModifiers>
-		<Row UnitAbilityType="ABILITY_BALKAN_CONFEDERACY" ModifierId="BALKAN_CONFEDERACY_MOD_UNIT_COMBAT_STRENGTH_MODIFIER"/>
-		<Row UnitAbilityType="ABILITY_LORDS_OF_THE_ADRIATIC" ModifierId="LORDS_OF_THE_ADRIATIC_MOD_COMBAT_STRENGTH_MODIFIER"/>
+		<Row UnitAbilityType="ABILITY_ROG_INDEPENDENT_COMBAT_STRENGTH" ModifierId="MOD_ABILITY_ROG_INDEPENDENT_COMBAT_STRENGTH"/>
+		<Row UnitAbilityType="ABILITY_ROG_COASTAL_COMBAT_STRENGTH_MODIFIER" ModifierId="MOD_ABILITY_ROG_COASTAL_COMBAT_STRENGTH_MODIFIER"/>
 	</UnitAbilityModifiers>
 	<Unit_Advisories>
 		<Row UnitType="UNIT_OIKAIDES" AdvisoryClassType="ADVISORY_CLASS_EMPIRE_EXPANSION"/>

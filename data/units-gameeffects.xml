@@ -3,23 +3,20 @@
 	<!-- ==================================================	-->
 	<!--	Unique Abilities							-->
 	<!-- ==================================================	-->
-	<Modifier id="BALKAN_CONFEDERACY_MOD_UNIT_COMBAT_STRENGTH_MODIFIER" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+	<Modifier id="MOD_ABILITY_ROG_INDEPENDENT_COMBAT_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_OPPONENT_IS_INDEPENDENT"/>
 		</SubjectRequirements>
 		<Argument name="Amount">5</Argument>
-		<String context="Preview">LOC_TRADITION_BALKAN_CONFEDERACY_DESCRIPTION</String>
+		<String context="Preview">LOC_ABILITY_ROG_INDEPENDENT_COMBAT_STRENGTH_DESCRIPTION</String>
 	</Modifier>
 
-	<Modifier id="LORDS_OF_THE_ADRIATIC_MOD_COMBAT_STRENGTH_MODIFIER" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+	<Modifier id="MOD_ABILITY_ROG_COASTAL_COMBAT_STRENGTH_MODIFIER" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLOT_IS_COASTAL"/>
 		</SubjectRequirements>
 		<Argument name="Amount">3</Argument>
-		<String context="Preview">LOC_TRADITION_LORDS_OF_THE_ADRIATIC_DESCRIPTION</String>
+		<String context="Preview">LOC_ABILITY_ROG_COASTAL_COMBAT_STRENGTH_MODIFIER_DESCRIPTION</String>
 	</Modifier>
-
-
-
 
 </GameEffects>

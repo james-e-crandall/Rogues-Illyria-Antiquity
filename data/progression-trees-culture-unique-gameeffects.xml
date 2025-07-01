@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
+    <Modifier id="MOD_ROG_INDEPENDENT_COMBAT_STRENGTH" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<Argument name="AbilityType">ABILITY_ROG_INDEPENDENT_COMBAT_STRENGTH</Argument>
+		<String context="Description">LOC_ROG_INDEPENDENT_COMBAT_STRENGTH_DESCRIPTION</String>
+	</Modifier>
+    <Modifier id="MOD_ROG_COASTAL_COMBAT_STRENGTH" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<Argument name="AbilityType">ABILITY_LORDS_OF_THE_ADRIATIC</Argument>
+		<String context="Description">LOC_ROG_COASTAL_COMBAT_STRENGTH_DESCRIPTION</String>
+	</Modifier>
+
+
     <Modifier id="MOD_TEGENON_BRETE_SETTLEMENT_CAP" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_SETTLEMENT_CAP" permanent="true">
 		<Argument name="Amount">1</Argument>
 		<String context="Description">LOC_MOD_TEGENON_BRETE_SETTLEMENT_CAP_DESCRIPTION</String>
@@ -10,14 +20,14 @@
 		<String context="Description">LOC_MOD_TEGENON_BRETE_SETTLEMENT_CAP_DESCRIPTION</String>
 	</Modifier>
 
-     <Modifier id="MOD_PLATON_VALETES_LEMBAS_BOOST" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_MOVEMENT" permanent="true">
+     <Modifier id="MOD_ROG_OIKAIDES_MOVEMENT_BOOST" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_MOVEMENT" permanent="true">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
-				<Argument name="Tag">UNIT_CLASS_NAVAL</Argument>
+				<Argument name="Tag">UNIT_OIKAIDES</Argument>
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="Amount">1</Argument>
-		<String context="Description">LOC_MOD_PLATON_VALETES_LEMBAS_BOOST_DESCRIPTION</String>
+		<String context="Description">LOC_MOD_ROG_OIKAIDES_MOVEMENT_BOOST_DESCRIPTION</String>
 	</Modifier>
 
 	<Modifier id="MOD_ROG_NAVAL_PILLAGE_IMPROVEMENT" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ADJUST_UNIT_IMPROVEMENT_PILLAGE_YIELD_MODIFIER">
@@ -28,6 +38,7 @@
 		</SubjectRequirements>	
 		<Argument name="Amount">50</Argument>
 		<Argument name="PlunderTypes">PLUNDER_GOLD</Argument>
+		<String context="Description">LOC_MOD_ROG_NAVAL_PILLAGE_IMPROVEMENT_DESCRIPTION</String>
 	</Modifier>
 
 </GameEffects>
