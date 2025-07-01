@@ -1,99 +1,99 @@
 <Database>
 	<Types>
 		<!-- Major Civs -->
-		<Row Type="TRAIT_ILLYRIA_ABILITY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_ILLYRIA_ROG_ABILITY" Kind="KIND_TRAIT"/>
 	</Types>
 	<Kinds>
 		<InsertOrIgnore KIND="KIND_TRAIT"/>
 	</Kinds>
 	<Civilizations>
 		<!-- Full Civs -->
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" Name="LOC_CIVILIZATION_ILLYRIA_NAME" FullName="LOC_CIVILIZATION_ILLYRIA_FULLNAME" Description="LOC_CIVILIZATION_ILLYRIA_DESCRIPTION" Adjective="LOC_CIVILIZATION_ILLYRIA_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" UniqueCultureProgressionTree="TREE_CIVICS_AQ_ILLYRIA" CapitalName="LOC_CITY_NAME_ILLYRIA1" RandomCityNameDepth="10"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" Name="LOC_CIVILIZATION_ILLYRIA_ROG_NAME" FullName="LOC_CIVILIZATION_ILLYRIA_ROG_FULLNAME" Description="LOC_CIVILIZATION_ILLYRIA_ROG_DESCRIPTION" Adjective="LOC_CIVILIZATION_ILLYRIA_ROG_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" UniqueCultureProgressionTree="TREE_CIVICS_AQ_ILLYRIA" CapitalName="LOC_CITY_NAME_ILLYRIA1" RandomCityNameDepth="10"/>
 	</Civilizations>
 	<Traits>
 		<!--Civ Traits-->
-		<Row TraitType="TRAIT_ILLYRIA_ABILITY" Name="LOC_TRAIT_ILLYRIA_ABILITY_NAME" Description="LOC_TRAIT_ILLYRIA_ABILITY_DESCRIPTION" InternalOnly="true"/>
+		<Row TraitType="TRAIT_ILLYRIA_ROG_ABILITY" Name="LOC_TRAIT_ILLYRIA_ROG_ABILITY_NAME" Description="LOC_TRAIT_ILLYRIA_ROG_ABILITY_DESCRIPTION" InternalOnly="true"/>
 	</Traits>
 	<TraitModifiers>
-		<Row TraitType="TRAIT_ILLYRIA_ABILITY" ModifierId="MOD_REVEAL_CIV_CULTURE_TREE_ILLYRIA"/>
-		<Row TraitType="TRAIT_ILLYRIA_ABILITY" ModifierId="TRAIT_MOD_ILLYRIAN_WALLS_FOUNDER"/>
-		<Row TraitType="TRAIT_ILLYRIA_ABILITY" ModifierId="TRAIT_MOD_ILLYRIAN_WALLS_SETTLER"/>
+		<Row TraitType="TRAIT_ILLYRIA_ROG_ABILITY" ModifierId="MOD_REVEAL_CIV_CULTURE_TREE_ILLYRIA"/>
+		<Row TraitType="TRAIT_ILLYRIA_ROG_ABILITY" ModifierId="TRAIT_MOD_ILLYRIAN_WALLS_FOUNDER"/>
+		<Row TraitType="TRAIT_ILLYRIA_ROG_ABILITY" ModifierId="TRAIT_MOD_ILLYRIAN_WALLS_SETTLER"/>
 	</TraitModifiers>
 	<CivilizationTraits>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" TraitType="TRAIT_ANTIQUITY_CIV"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" TraitType="TRAIT_ANTIQUITY_CIV"/>
 
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" TraitType="TRAIT_ILLYRIA"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" TraitType="TRAIT_ILLYRIA_ROG"/>
 
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" TraitType="TRAIT_ILLYRIA_ABILITY"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" TraitType="TRAIT_ATTRIBUTE_EXPANSIONIST"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" TraitType="TRAIT_ATTRIBUTE_MILITARISTIC"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" TraitType="TRAIT_ILLYRIA_ROG_ABILITY"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" TraitType="TRAIT_ATTRIBUTE_EXPANSIONIST"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" TraitType="TRAIT_ATTRIBUTE_MILITARISTIC"/>
 	</CivilizationTraits>
 	<RequirementSets>
 		<Row RequirementSetId="REQSET_PLAYER_IS_ILLYRIA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 	</RequirementSets>
 	<RequirementSetRequirements>
-		<Row RequirementSetId="REQSET_PLAYER_IS_ILLYRIA" RequirementId="REQ_PLAYER_HAS_TRAIT_ILLYRIA"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_ILLYRIA" RequirementId="REQ_PLAYER_HAS_TRAIT_ILLYRIA_ROG"/>
 	</RequirementSetRequirements>
 	<Requirements>
-		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_ILLYRIA" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT"/>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_ILLYRIA_ROG" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT"/>
 	</Requirements>
 	<RequirementArguments>
-		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_ILLYRIA" Name="TraitType" Value="TRAIT_ILLYRIA"/>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_ILLYRIA_ROG" Name="TraitType" Value="TRAIT_ILLYRIA_ROG"/>
 	</RequirementArguments>
 	<LeaderCivPriorities>
 		<!--This is the table used for AI, the UI uses LeaderCivilizationBias in config.xml-->
-		<!-- <Row Leader="LEADER_MACHIAVELLI" Civilization="CIVILIZATION_ILLYRIA" Priority="4"/> -->
+		<!-- <Row Leader="LEADER_MACHIAVELLI" Civilization="CIVILIZATION_ILLYRIA_ROG" Priority="4"/> -->
 	</LeaderCivPriorities>
 	<CityNames>
 		<!--SUMER-->
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA1"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA2"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA3"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA4"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA5"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA6"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA7"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA8"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA9"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA10"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA11"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA12"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA13"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA14"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA15"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA16"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA17"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA18"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA19"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA20"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA21"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA22"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA23"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA24"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA25"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA26"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA27"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA28"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA29"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CityName="LOC_CITY_NAME_ILLYRIA30"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA1"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA2"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA3"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA4"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA5"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA6"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA7"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA8"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA9"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA10"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA11"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA12"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA13"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA14"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA15"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA16"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA17"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA18"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA19"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA20"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA21"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA22"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA23"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA24"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA25"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA26"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA27"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA28"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA29"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CityName="LOC_CITY_NAME_ILLYRIA30"/>
 	</CityNames>
 	
 	<StartBiasResources>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" ResourceType="RESOURCE_FISH" Score="20"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" ResourceType="RESOURCE_HARDWOOD" Score="5"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" ResourceType="RESOURCE_FISH" Score="20"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" ResourceType="RESOURCE_HARDWOOD" Score="5"/>
 	</StartBiasResources>
 	<StartBiasTerrains>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" TerrainType="TERRAIN_NAVIGABLE_RIVER" Score="30"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" TerrainType="TERRAIN_COAST" Score="60"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" TerrainType="TERRAIN_NAVIGABLE_RIVER" Score="30"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" TerrainType="TERRAIN_COAST" Score="60"/>
 	</StartBiasTerrains>
 	<VisArt_CivilizationBuildingCultures>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" BuildingCulture="BUILDING_CULTURE_MED"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" BuildingCulture="ANT_STONE"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" BuildingCulture="EXP_STONE"/>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" BuildingCulture="MOD_STONE"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" BuildingCulture="BUILDING_CULTURE_MED"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" BuildingCulture="ANT_STONE"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" BuildingCulture="MOD_STONE"/>
 	</VisArt_CivilizationBuildingCultures>
 	<VisArt_CivilizationUnitCultures>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" UnitCulture="MED"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" UnitCulture="MED"/>
 	</VisArt_CivilizationUnitCultures>
 
 	<EndGameMovies>

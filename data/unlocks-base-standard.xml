@@ -4,13 +4,13 @@
 		<InsertOrIgnore Kind="KIND_UNLOCK"/>
 	</Kinds>
 	<Types>
-		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_ILLYRIA" Kind="KIND_UNLOCK"/>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_ILLYRIA_ROG" Kind="KIND_UNLOCK"/>
 	</Types>
 	<Unlocks>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_ILLYRIA"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_ILLYRIA_ROG"/>
 	</Unlocks>
 	<UnlockRewards>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_ILLYRIA" Name="LOC_CIVILIZATION_ILLYRIA_NAME" Description="LOC_UNLOCK_ANTIQUITY_CIV_DESCRIPTION" Icon="CIVILIZATION_ILLYRIA" UnlockRewardType="CIVILIZATION_ILLYRIA" UnlockRewardKind="KIND_CIVILIZATION"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_ILLYRIA_ROG" Name="LOC_CIVILIZATION_ILLYRIA_ROG_NAME" Description="LOC_UNLOCK_ANTIQUITY_CIV_DESCRIPTION" Icon="CIVILIZATION_ILLYRIA_ROG" UnlockRewardType="CIVILIZATION_ILLYRIA_ROG" UnlockRewardKind="KIND_CIVILIZATION"/>
 	</UnlockRewards>
 	<RequirementSets>
 		<Row RequirementSetId="REQSET_CIVILIZATION_IS_ILLYRIA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
@@ -19,7 +19,7 @@
 		<Row RequirementId="REQ_CIVILIZATION_IS_ILLYRIA" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
 	</Requirements>
 	<RequirementArguments>
-		<Row RequirementId="REQ_CIVILIZATION_IS_ILLYRIA" Name="CivilizationType" Value="CIVILIZATION_ILLYRIA"/>
+		<Row RequirementId="REQ_CIVILIZATION_IS_ILLYRIA" Name="CivilizationType" Value="CIVILIZATION_ILLYRIA_ROG"/>
 	</RequirementArguments>
 	<RequirementSetRequirements>
 		<Row RequirementSetId="REQSET_CIVILIZATION_IS_ILLYRIA" RequirementId="REQ_CIVILIZATION_IS_ILLYRIA"/>

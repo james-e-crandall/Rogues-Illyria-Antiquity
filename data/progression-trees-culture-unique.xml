@@ -22,19 +22,19 @@
 	</ProgressionTrees>
 	<ProgressionTreeNodes>
 		<!--Civ Unique Mastery Tree Nodes-->
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_TEGENON_BRETE" ProgressionTree="TREE_CIVICS_AQ_ILLYRIA" Cost="125" Name="LOC_CIVIC_TEGENON_BRETE_NAME" IconString="cult_illyria"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_ENCHELEI" ProgressionTree="TREE_CIVICS_AQ_ILLYRIA" Cost="125" Name="LOC_CIVIC_ENCHELEI_NAME" IconString="cult_illyria"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_PLATON_VALETES" ProgressionTree="TREE_CIVICS_AQ_ILLYRIA" Cost="150" Name="LOC_CIVIC_PLATON_VALETES_NAME" IconString="cult_illyria"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_STABION_UDANON" ProgressionTree="TREE_CIVICS_AQ_ILLYRIA" Cost="225" Name="LOC_CIVIC_STABION_UDANON_NAME" IconString="cult_illyria"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_TEGENON_BRETE" ProgressionTree="TREE_CIVICS_AQ_ILLYRIA" Cost="125" Name="LOC_CIVIC_TEGENON_BRETE_NAME" IconString="cult_illyria_rog"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_ENCHELEI" ProgressionTree="TREE_CIVICS_AQ_ILLYRIA" Cost="125" Name="LOC_CIVIC_ENCHELEI_NAME" IconString="cult_illyria_rog"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_PLATON_VALETES" ProgressionTree="TREE_CIVICS_AQ_ILLYRIA" Cost="150" Name="LOC_CIVIC_PLATON_VALETES_NAME" IconString="cult_illyria_rog"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_STABION_UDANON" ProgressionTree="TREE_CIVICS_AQ_ILLYRIA" Cost="225" Name="LOC_CIVIC_STABION_UDANON_NAME" IconString="cult_illyria_rog"/>
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_TEGENON_BRETE" TargetKind="KIND_MODIFIER" TargetType="MOD_TEGENON_BRETE_SETTLEMENT_CAP" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_TEGENON_BRETE" TargetKind="KIND_TRADITION" TargetType="TRADITION_POLYDYNASTAE" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_TEGENON_BRETE" TargetKind="KIND_MODIFIER" TargetType="MOD_ROG_INDEPENDENT_COMBAT_STRENGTH" UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_TEGENON_BRETE" TargetKind="KIND_MODIFIER" TargetType="MOD_ROG_INDEPENDENT_COMBAT_STRENGTH" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_TEGENON_BRETE" TargetKind="KIND_TRADITION" TargetType="TRADITION_POLYDYNASTAE" UnlockDepth="2"/>
 
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_ENCHELEI" TargetKind="KIND_TRADITION" TargetType="TRADITION_BARDYLIS_LEGACY" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_ENCHELEI" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_GRADINA_ROG" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_ENCHELEI" TargetKind="KIND_MODIFIER" TargetType="MOD_ROG_COASTAL_COMBAT_STRENGTH" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_ENCHELEI" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_GRADINA" UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_ENCHELEI" TargetKind="KIND_TRADITION" TargetType="TRADITION_BARDYLIS_LEGACY" UnlockDepth="2"/>
 
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_PLATON_VALETES" TargetKind="KIND_MODIFIER" TargetType="MOD_ROG_OIKAIDES_MOVEMENT_BOOST" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ILLYRIA_PLATON_VALETES" TargetKind="KIND_MODIFIER" TargetType="MOD_PLATON_VALETES_SETTLEMENT_CAP" UnlockDepth="1"/>	

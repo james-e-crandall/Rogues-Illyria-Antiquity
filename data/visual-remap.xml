@@ -3,24 +3,24 @@
     <VisualRemaps>
     <!-- subei -->
         <Row>
-            <ID>REMAP_UNIT_OIKAIDES</ID>
+            <ID>REMAP_UNIT_OIKAIDES_ROG</ID>
             <DisplayName>LOC_UNIT_WAR_CHARIOT_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_OIKAIDES</From>
+            <From>UNIT_OIKAIDES_ROG</From>
             <To>UNIT_CARRACK</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_LEMBUS</ID>
-            <DisplayName>LOC_UNIT_LEMBUS_NAME</DisplayName>
+            <ID>REMAP_UNIT_LEMBUS_ROG</ID>
+            <DisplayName>LOC_UNIT_LEMBUS_ROG_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_LEMBUS</From>
+            <From>UNIT_LEMBUS_ROG</From>
             <To>UNIT_GALLEY</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_LEMBUS_2</ID>
-            <DisplayName>LOC_UNIT_LEMBUS_2_NAME</DisplayName>
+            <ID>REMAP_UNIT_LEMBUS_ROG_2</ID>
+            <DisplayName>LOC_UNIT_LEMBUS_ROG_2_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_LEMBUS_2</From>
+            <From>UNIT_LEMBUS_ROG_2</From>
             <To>UNIT_QUADRIREME</To>
         </Row>
                

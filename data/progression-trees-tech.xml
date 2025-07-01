@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<ProgressionTreeNodeUnlocks>
-		<!-- <Row ProgressionTreeNodeType="NODE_TECH_AQ_SAILING" TargetKind="KIND_UNIT" TargetType="UNIT_OIKAIDES" UnlockDepth="1" RequiredTraitType="TRAIT_ILLYRIA"/> -->
-		<Row ProgressionTreeNodeType="NODE_TECH_AQ_SAILING" TargetKind="KIND_UNIT" TargetType="UNIT_LEMBUS" UnlockDepth="1" RequiredTraitType="TRAIT_ILLYRIA"/>
-		<Row ProgressionTreeNodeType="NODE_TECH_AQ_NAVIGATION" TargetKind="KIND_UNIT" TargetType="UNIT_LEMBUS_2" UnlockDepth="1" RequiredTraitType="TRAIT_ILLYRIA"/>
+		<!-- <Row ProgressionTreeNodeType="NODE_TECH_AQ_SAILING" TargetKind="KIND_UNIT" TargetType="UNIT_OIKAIDES_ROG" UnlockDepth="1" RequiredTraitType="TRAIT_ILLYRIA_ROG"/> -->
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_SAILING" TargetKind="KIND_UNIT" TargetType="UNIT_LEMBUS_ROG" UnlockDepth="1" RequiredTraitType="TRAIT_ILLYRIA_ROG"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_NAVIGATION" TargetKind="KIND_UNIT" TargetType="UNIT_LEMBUS_ROG_2" UnlockDepth="1" RequiredTraitType="TRAIT_ILLYRIA_ROG"/>
 	</ProgressionTreeNodeUnlocks>
 </Database>

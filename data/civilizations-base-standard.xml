@@ -4,10 +4,10 @@
 		<InsertOrIgnore KIND="KIND_TRAIT"/>
 	</Kinds>
 	<Types>
-		<Row Type="TRAIT_ILLYRIA" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_ILLYRIA_ROG" Kind="KIND_TRAIT"/>
 	</Types>
 	<Traits>
-		<Row TraitType="TRAIT_ILLYRIA" InternalOnly="true"/>
+		<Row TraitType="TRAIT_ILLYRIA_ROG" InternalOnly="true"/>
 
 	</Traits>
 </Database>

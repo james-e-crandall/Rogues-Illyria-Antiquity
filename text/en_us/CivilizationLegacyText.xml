@@ -2,15 +2,15 @@
 <Database>
   <EnglishText>
     <!--Civilization Names-->
-    <Row Tag="LOC_CIVILIZATION_ILLYRIA_NAME">
+    <Row Tag="LOC_CIVILIZATION_ILLYRIA_ROG_NAME">
       <Text>Illyria</Text>
     </Row>
     <!--Civilization Full Names-->
-    <Row Tag="LOC_CIVILIZATION_ILLYRIA_FULLNAME">
+    <Row Tag="LOC_CIVILIZATION_ILLYRIA_ROG_FULLNAME">
       <Text>Illyria</Text>
     </Row>
     <!--Civilization Adjectives-->
-    <Row Tag="LOC_CIVILIZATION_ILLYRIA_ADJECTIVE">
+    <Row Tag="LOC_CIVILIZATION_ILLYRIA_ROG_ADJECTIVE">
       <Text>Illyrian</Text>
     </Row>
   </EnglishText>

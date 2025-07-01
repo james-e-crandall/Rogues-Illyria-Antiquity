@@ -2,44 +2,44 @@
 <Database>
 	<IconDefinitions>
 		<Row>
-			<ID>ICON_CIVILIZATION_ILLYRIA</ID>
-			<Path>fs://game/rogues-civ-illyria/illyria.png</Path>
+			<ID>ICON_CIVILIZATION_ILLYRIA_ROG</ID>
+			<Path>fs://game/rogues-civ-illyria/civ_sym_illyria_rog.png</Path>
 		</Row>
 		<Row>
-			<ID>CIVILIZATION_ILLYRIA</ID>
-			<Path>fs://game/rogues-civ-illyria/illyria.png</Path>
+			<ID>CIVILIZATION_ILLYRIA_ROG</ID>
+			<Path>fs://game/rogues-civ-illyria/civ_sym_illyria_rog.png</Path>
 		</Row>
 		<Row>
-			<ID>CIVILIZATION_ILLYRIA</ID>
+			<ID>CIVILIZATION_ILLYRIA_ROG</ID>
 			<Context>BACKGROUND</Context>
 			<Path>fs://game/rogues-civ-illyria/lsbg_illyria_1080</Path>
 			<IconSize>1080</IconSize>
 		</Row>
 		<Row>
-			<ID>CIVILIZATION_ILLYRIA</ID>
+			<ID>CIVILIZATION_ILLYRIA_ROG</ID>
 			<Context>BACKGROUND</Context>
 			<Path>fs://game/rogues-civ-illyria/lsbg_illyria_720</Path>
 			<IconSize>720</IconSize>
 		</Row>
 		<Row>
 			<ID>civ_line_illyria</ID>
-			<Path>fs://game/rogues-civ-illyria/civ_line_illyria.png</Path>
+			<Path>fs://game/rogues-civ-illyria/civ_line_illyria_rog.png</Path>
 		</Row>
 		<Row>
-			<ID>UNIT_OIKAIDES</ID>
-			<Path>fs://game/rogues-civ-illyria/unitflag_oikaides.png</Path>
+			<ID>UNIT_OIKAIDES_ROG</ID>
+			<Path>fs://game/rogues-civ-illyria/unitflag_oikaides_rog.png</Path>
 		</Row>
 		<Row>
-			<ID>UNIT_LEMBUS</ID>
+			<ID>UNIT_LEMBUS_ROG</ID>
 			<Path>blp:unitflag_galley</Path>
 		</Row>
 		<Row>
-			<ID>UNIT_LEMBUS_2</ID>
+			<ID>UNIT_LEMBUS_ROG_2</ID>
 			<Path>blp:unitflag_quadrireme</Path>
 		</Row>
 		<Row>
-			<ID>BUILDING_GRADINA</ID>
-			<Path>fs://game/rogues-civ-illyria/gradina.png</Path>
+			<ID>BUILDING_GRADINA_ROG</ID>
+			<Path>fs://game/rogues-civ-illyria/buildicon_gradina_rog.png</Path>
 		</Row>
 	</IconDefinitions>
 	

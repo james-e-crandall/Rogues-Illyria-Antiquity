@@ -2,20 +2,20 @@
 <Database>
 	<Types>
 		<!-- Major Civs -->
-		<Row Type="TRAIT_ILLYRIA" Kind="KIND_TRAIT"/>
-		<Row Type="CIVILIZATION_ILLYRIA" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_ILLYRIA_ROG" Kind="KIND_TRAIT"/>
+		<Row Type="CIVILIZATION_ILLYRIA_ROG" Kind="KIND_CIVILIZATION"/>
 	</Types>
 	<LegacyCivilizations>
 		<!-- Full Civs -->
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" Name="LOC_CIVILIZATION_ILLYRIA_NAME" FullName="LOC_CIVILIZATION_ILLYRIA_FULLNAME" Adjective="LOC_CIVILIZATION_ILLYRIA_ADJECTIVE" Age="AGE_ANTIQUITY"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" Name="LOC_CIVILIZATION_ILLYRIA_ROG_NAME" FullName="LOC_CIVILIZATION_ILLYRIA_ROG_FULLNAME" Adjective="LOC_CIVILIZATION_ILLYRIA_ROG_ADJECTIVE" Age="AGE_ANTIQUITY"/>
 	</LegacyCivilizations>
 	<LegacyCivilizationTraits>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" TraitType="TRAIT_ILLYRIA"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" TraitType="TRAIT_ILLYRIA_ROG"/>
 	</LegacyCivilizationTraits>
 	<Traits>
-		<Row TraitType="TRAIT_ILLYRIA" InternalOnly="true"/>
+		<Row TraitType="TRAIT_ILLYRIA_ROG" InternalOnly="true"/>
 	</Traits>
 	<LegacyLeaderCivPriorities>
-		<!-- <Row Leader="LEADER_MACHIAVELLI" CivilizationType="CIVILIZATION_ILLYRIA"/> -->
+		<!-- <Row Leader="LEADER_MACHIAVELLI" CivilizationType="CIVILIZATION_ILLYRIA_ROG"/> -->
 	</LegacyLeaderCivPriorities>
 </Database>

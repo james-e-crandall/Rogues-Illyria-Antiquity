@@ -4,16 +4,16 @@
 		<InsertOrIgnore Kind="KIND_UNLOCK"/>
 	</Kinds>
 	<Types>
-		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_ILLYRIA" Kind="KIND_UNLOCK"/>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_ILLYRIA_ROG" Kind="KIND_UNLOCK"/>
 	</Types>
 	<Unlocks>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_ILLYRIA"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_ILLYRIA_ROG"/>
 	</Unlocks>
 	<UnlockRewards>
 	</UnlockRewards>
 	<UnlockRequirements>
 	</UnlockRequirements>
 	<UnlockConfigurationValues>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_ILLYRIA" ConfigurationValue="CIVILIZATION_ILLYRIA"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_ILLYRIA_ROG" ConfigurationValue="CIVILIZATION_ILLYRIA_ROG"/>
 	</UnlockConfigurationValues>
 </Database>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<LoadingInfo_Civilizations>
-		<Row CivilizationType="CIVILIZATION_ILLYRIA" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_ILLYRIA" Subtitle="LOC_LOADING_VO_ILLYRIA" Audio="VO_Loading_ILLYRIA" BackgroundImageHigh="fs://game/rogues-civ-illyria/lsbg_illyria_1080" BackgroundImageLow="fs://game/rogues-civ-illyria/lsbg_illyria_720" ForegroundImage="fs://game/civ_line_illyria.png"/>
+		<Row CivilizationType="CIVILIZATION_ILLYRIA_ROG" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_ILLYRIA" Subtitle="LOC_LOADING_VO_ILLYRIA" Audio="VO_Loading_ILLYRIA" BackgroundImageHigh="fs://game/rogues-civ-illyria/lsbg_illyria_rog_1080" BackgroundImageLow="fs://game/rogues-civ-illyria/lsbg_illyria_rog_720" ForegroundImage="fs://game/civ_line_illyria_rog.png" Tip="LOC_LOADING_CIV_TIPS_TEXT_ILLYRIA_ROG"/>
 	</LoadingInfo_Civilizations>
 </Database>

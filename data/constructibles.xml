@@ -4,45 +4,45 @@
 		<InsertOrIgnore Kind="KIND_CONSTRUCTIBLE"/>
 	</Kinds>
 	<Types>
-		<Row Type="BUILDING_GRADINA" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="BUILDING_GRADINA_ROG" Kind="KIND_CONSTRUCTIBLE"/>
 	</Types>
 	<Constructibles>
-		<Row ConstructibleType="BUILDING_GRADINA" Name="LOC_BUILDING_GRADINA_NAME" Description="LOC_BUILDING_GRADINA_DESCRIPTION" Tooltip="LOC_BUILDING_GRADINA_TOOLTIP" ConstructibleClass="BUILDING" RiverPlacement="ANCHORED" Cost="55" Population="1" MilitaryDomain="DOMAIN_SEA"/>
+		<Row ConstructibleType="BUILDING_GRADINA_ROG" Name="LOC_BUILDING_GRADINA_ROG_NAME" Description="LOC_BUILDING_GRADINA_ROG_DESCRIPTION" Tooltip="LOC_BUILDING_GRADINA_ROG_TOOLTIP" ConstructibleClass="BUILDING" RiverPlacement="ANCHORED" Cost="55" Population="1" MilitaryDomain="DOMAIN_SEA"/>
 	</Constructibles>
 	<Buildings>
-		<Row ConstructibleType="BUILDING_GRADINA" Movable="false" TraitType="TRAIT_ILLYRIA"/>
+		<Row ConstructibleType="BUILDING_GRADINA_ROG" Movable="false" TraitType="TRAIT_ILLYRIA_ROG"/>
 	</Buildings>
 	<Improvements>
 	</Improvements>
 	<TypeTags>
-		<Row Type="BUILDING_GRADINA" Tag="FOOD"/>
-		<Row Type="BUILDING_GRADINA" Tag="AGELESS"/>
-		<Row Type="BUILDING_GRADINA" Tag="PERSISTENT"/>
-		<Row Type="BUILDING_GRADINA" Tag="WATER"/>
+		<Row Type="BUILDING_GRADINA_ROG" Tag="FOOD"/>
+		<Row Type="BUILDING_GRADINA_ROG" Tag="AGELESS"/>
+		<Row Type="BUILDING_GRADINA_ROG" Tag="PERSISTENT"/>
+		<Row Type="BUILDING_GRADINA_ROG" Tag="WATER"/>
 	</TypeTags>
 
 	<Constructible_ValidDistricts>
-		<Row ConstructibleType="BUILDING_GRADINA" DistrictType="DISTRICT_CITY_CENTER"/>
-		<Row ConstructibleType="BUILDING_GRADINA" DistrictType="DISTRICT_URBAN"/>
+		<Row ConstructibleType="BUILDING_GRADINA_ROG" DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_GRADINA_ROG" DistrictType="DISTRICT_URBAN"/>
 	</Constructible_ValidDistricts>
 	<Constructible_ValidTerrains>
-		<Row ConstructibleType="BUILDING_GRADINA" TerrainType="TERRAIN_COAST"/>
-		<Row ConstructibleType="BUILDING_GRADINA" TerrainType="TERRAIN_NAVIGABLE_RIVER"/>
+		<Row ConstructibleType="BUILDING_GRADINA_ROG" TerrainType="TERRAIN_COAST"/>
+		<Row ConstructibleType="BUILDING_GRADINA_ROG" TerrainType="TERRAIN_NAVIGABLE_RIVER"/>
 	</Constructible_ValidTerrains>
 	<Constructible_YieldChanges>
-		<Row ConstructibleType="BUILDING_GRADINA" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row ConstructibleType="BUILDING_GRADINA_ROG" YieldType="YIELD_FOOD" YieldChange="1"/>
 	</Constructible_YieldChanges>
 
 	<Constructible_Maintenances>
-		<Row ConstructibleType="BUILDING_GRADINA" YieldType="YIELD_GOLD" Amount="1"/>
-		<Row ConstructibleType="BUILDING_GRADINA" YieldType="YIELD_HAPPINESS" Amount="1"/>
+		<Row ConstructibleType="BUILDING_GRADINA_ROG" YieldType="YIELD_GOLD" Amount="1"/>
+		<Row ConstructibleType="BUILDING_GRADINA_ROG" YieldType="YIELD_HAPPINESS" Amount="1"/>
 	</Constructible_Maintenances>
 
 	<Constructible_ValidTerrains>
 	</Constructible_ValidTerrains>
 
 	<Constructible_Adjacencies>
-		<Row ConstructibleType="BUILDING_GRADINA" YieldChangeId="GradinaResourceFood"/>
+		<Row ConstructibleType="BUILDING_GRADINA_ROG" YieldChangeId="GradinaResourceFood"/>
 	</Constructible_Adjacencies>
 
 	<Adjacency_YieldChanges>
@@ -58,16 +58,16 @@
 	</Constructible_WarehouseYields>
 
 	<Constructible_Plunders>
-		<Row ConstructibleType="BUILDING_GRADINA" PlunderType="PLUNDER_GOLD" Amount="40"/>
+		<Row ConstructibleType="BUILDING_GRADINA_ROG" PlunderType="PLUNDER_GOLD" Amount="40"/>
 	</Constructible_Plunders>
 	
 	<Constructible_Advisories>
-		<Row ConstructibleType="BUILDING_GRADINA" AdvisoryClassType="ADVISORY_CLASS_FOOD"/>
-		<Row ConstructibleType="BUILDING_GRADINA" AdvisoryClassType="ADVISORY_CLASS_SCIENCE"/>
+		<Row ConstructibleType="BUILDING_GRADINA_ROG" AdvisoryClassType="ADVISORY_CLASS_FOOD"/>
+		<Row ConstructibleType="BUILDING_GRADINA_ROG" AdvisoryClassType="ADVISORY_CLASS_SCIENCE"/>
 	</Constructible_Advisories>
 
 	<UniqueQuarters>
-		<Row UniqueQuarterType="QUARTER_VLORE" BuildingType1="BUILDING_GRADINA" BuildingType2="BUILDING_LIGHTHOUSE" Name="LOC_QUARTER_VLORE_NAME" Description="LOC_QUARTER_VLORE_DESCRIPTION" Tooltip="LOC_QUARTER_VLORE_TOOLTIP" TraitType="TRAIT_ILLYRIA"/>
+		<Row UniqueQuarterType="QUARTER_VLORE" BuildingType1="BUILDING_GRADINA_ROG" BuildingType2="BUILDING_LIGHTHOUSE" Name="LOC_QUARTER_VLORE_NAME" Description="LOC_QUARTER_VLORE_DESCRIPTION" Tooltip="LOC_QUARTER_VLORE_TOOLTIP" TraitType="TRAIT_ILLYRIA_ROG"/>
 	</UniqueQuarters>
 
 	<GameModifiers>

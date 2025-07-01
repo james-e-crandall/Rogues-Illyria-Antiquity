@@ -7,5 +7,9 @@
 		<Row Tag="LOC_LOADING_VO_ILLYRIA">
 			<Text>Will you unite the confederacy and reclaim dominion over the waves, or will history wash your name away like the tides?</Text>
 		</Row>
+		<Row Tag="LOC_LOADING_CIV_TIPS_TEXT_ILLYRIA_ROG">
+			<Text>Expand along the coast and build up with Water based improvemnt.  Scout and contorl the waters with Unique Naval units.</Text>
+		</Row>
+		
 	</EnglishText>
 </Database>

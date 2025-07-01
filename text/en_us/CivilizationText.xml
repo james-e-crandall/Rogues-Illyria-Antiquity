@@ -2,13 +2,13 @@
 <Database>
 	<EnglishText>
 		<!--Civilization Traits-->
-		<Row Tag="LOC_TRAIT_ILLYRIA_NAME">
+		<Row Tag="LOC_TRAIT_ILLYRIA_ROG_NAME">
 			<Text>Masters of the Adriatic</Text>
 		</Row>
-		<Row Tag="LOC_CIVILIZATION_ILLYRIA_DESCRIPTION">
+		<Row Tag="LOC_CIVILIZATION_ILLYRIA_ROG_DESCRIPTION">
 			<Text>When you found a [B]Settlement[/B] receive a free [B]Walls[/B].</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_ILLYRIA_DESCRIPTION">
+		<Row Tag="LOC_TRAIT_ILLYRIA_ROG_DESCRIPTION">
 			<Text>[LIST][LI]When you found a [B]Settlement[/B] receive a free [B]Walls[/B].[/LIST]</Text>
 		</Row>
 

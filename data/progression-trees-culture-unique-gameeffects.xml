@@ -23,7 +23,7 @@
      <Modifier id="MOD_ROG_OIKAIDES_MOVEMENT_BOOST" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_MOVEMENT" permanent="true">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
-				<Argument name="Tag">UNIT_OIKAIDES</Argument>
+				<Argument name="Tag">UNIT_OIKAIDES_ROG</Argument>
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="Amount">1</Argument>

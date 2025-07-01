@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<EnglishText>
-		<Row Tag="LOC_BUILDING_GRADINA_NAME">
+		<Row Tag="LOC_BUILDING_GRADINA_ROG_NAME">
 			<Text>Gradina</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_GRADINA_DESCRIPTION">
+		<Row Tag="LOC_BUILDING_GRADINA_ROG_DESCRIPTION">
 			<Text>Illyrian Unique Food Building. +1[icon:YIELD_FOOD] Food. +2[icon:YIELD_FOOD] Food for each adjacent Resource.</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_GRADINA_TOOLTIP">
+		<Row Tag="LOC_BUILDING_GRADINA_ROG_TOOLTIP">
 			<Text>+1[icon:YIELD_FOOD] Food. +2[icon:YIELD_FOOD] Food for each adjacent Resource.</Text>
 		</Row>
 
