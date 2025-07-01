@@ -3,7 +3,7 @@
 	<!-- ==================================================	-->
 	<!--				Civ-Specific Traits					-->
 	<!-- ==================================================	-->
-	<Modifier id="TRAIT_MOD_ILLYRIAN_WALLS_FOUNDER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_GRANT_WALLS" permanent="true">
+	<Modifier id="MOD_ROG_TRAIT_ILLYRIAN_WALLS_FOUNDER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_GRANT_WALLS" permanent="true">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_FOUNDED_BY_UNIT_TYPE">
 				<Argument name="UnitType">UNIT_FOUNDER</Argument>
@@ -12,7 +12,7 @@
 		<Argument name="Amount">1</Argument>
 		<Argument name="BuildingType">BUILDING_ANCIENT_WALLS</Argument>
 	</Modifier>
-	<Modifier id="TRAIT_MOD_ILLYRIAN_WALLS_SETTLER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_GRANT_WALLS" permanent="true">
+	<Modifier id="MOD_ROG_TRAIT_ILLYRIAN_WALLS_SETTLER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_GRANT_WALLS" permanent="true">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_FOUNDED_BY_UNIT_TYPE">
 				<Argument name="UnitType">UNIT_SETTLER</Argument>
@@ -26,13 +26,13 @@
 	<!--				Civ-Specific Trees					-->
 	<!-- ==================================================	-->
 
-	<Modifier id="MOD_REVEAL_CIV_CULTURE_TREE_ILLYRIA" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+	<Modifier id="MOD_REVEAL_CIV_CULTURE_TREE_ILLYRIA_ROG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
 				<Argument name="TraitType">TRAIT_ILLYRIA_ROG</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ProgressionTreeType">TREE_CIVICS_AQ_ILLYRIA</Argument>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_AQ_ILLYRIA_ROG</Argument>
 	</Modifier>
 	<!-- ==================================================	-->
 	<!--				Wonder Bonuses						-->
