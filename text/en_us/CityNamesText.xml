@@ -2,94 +2,94 @@
 <Database>
 	<EnglishText>
 		<!--ILLYRIA-->
-		<Row Tag="LOC_CITY_NAME_ILLYRIA1">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG1">
 			<Text>Rhizon</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA2">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG2">
 			<Text>Shkodra</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA3">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG3">
 			<Text>Lissus</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA4">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG4">
 			<Text>Byllis</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA5">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG5">
 			<Text>Dimale</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA6">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG6">
 			<Text>Epidamnos</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA7">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG7">
 			<Text>Apollonia</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA8">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG8">
 			<Text>Daorson</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA9">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG9">
 			<Text>Delminium</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA10">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG10">
 			<Text>Scodra</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA11">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG11">
 			<Text>Metion</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA12">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG12">
 			<Text>Issa</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA13">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG13">
 			<Text>Tanais</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA14">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG14">
 			<Text>Segestica</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA15">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG15">
 			<Text>Sardos</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA16">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG16">
 			<Text>Berzita</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA17">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG17">
 			<Text>Oeneon</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA18">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG18">
 			<Text>Ulkinion</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA19">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG19">
 			<Text>Theranda</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA20">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG20">
 			<Text>Drivastum</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA21">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG21">
 			<Text>Ardianon</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA22">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG22">
 			<Text>Taulantia</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA23">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG23">
 			<Text>Dardanon</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA24">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG24">
 			<Text>Autariaton</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA25">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG25">
 			<Text>Pannonion</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA26">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG26">
 			<Text>Scodrion</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA27">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG27">
 			<Text>Delmion</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA28">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG28">
 			<Text>Labion</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA29">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG29">
 			<Text>Breukon</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_ILLYRIA30">
+		<Row Tag="LOC_CITY_NAME_ILLYRIA_ROG30">
 			<Text>Pirustium</Text>
 		</Row>
 	</EnglishText>
