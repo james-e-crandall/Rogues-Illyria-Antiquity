@@ -69,13 +69,6 @@
 				</UIScripts>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="rogue-civ-main-illyria-venice" scope="game" criteria="venice-current">
-			<Actions>
-				<UpdateDatabase>
-					<Item>venice/data/unlocks-venice.xml</Item>
-				</UpdateDatabase>
-			</Actions>
-		</ActionGroup>
 		<ActionGroup id="rogue-civ-main-illyria-bulgaria" scope="game" criteria="bulgaria-current">
 			<Actions>
 				<UpdateDatabase>
@@ -154,20 +147,6 @@
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="rogue-civ-main-illyria-venice-shell" scope="shell" criteria="venice-current">
-			<Actions>
-				<UpdateDatabase>
-					<Item>venice/config/config-venice.xml</Item>
-				</UpdateDatabase>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="rogue-civ-main-illyria-bulgaria-shell" scope="shell" criteria="bulgaria-current">
-			<Actions>
-				<UpdateDatabase>
-					<Item>venice/config/config-venice.xml</Item>
-				</UpdateDatabase>
-			</Actions>
-		</ActionGroup>
 		<ActionGroup id="rogue-civ-illyria-shell" scope="shell" criteria="always">
 			<Actions>
 				<ImportFiles>
@@ -184,6 +163,8 @@
 				</UpdateIcons>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
+					<Item>venice/config/config-venice.xml</Item>
+					<Item>bulgaria/config/config-bulgaria.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/CultureText.xml</Item>
