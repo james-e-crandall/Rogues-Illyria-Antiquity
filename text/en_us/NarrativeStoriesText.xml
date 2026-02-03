@@ -2,19 +2,19 @@
 <Database>
     <EnglishText>
         <Row Tag="LOC_GERMANIA_JEC_COMPLETED_PROGRESSION_TREEA_STORYTITLE">
-            <Text>Tribes of the fatherland.</Text>
+            <Text>to gleam, shine</Text>
         </Row>
         <Row Tag="LOC_GERMANIA_JEC_COMPLETED_PROGRESSION_TREEA_COMPLETION">
-            <Text>Until all called themselves by this self-invented name of Germans, which the conquerors had first employed to inspire terror!</Text>
+            <Text>And at first for a long while the battle was evenly poised because of the exceeding gallantry displayed on both sides, and as many were slain and still more wounded</Text>
         </Row>
         <Row Tag="LOC_GERMANIA_JEC_COMPLETED_PROGRESSION_TREEB_NAME">
-            <Text>Germania’s reputation fuels its growth.</Text>
+            <Text>Illyria’s reputation fuels its growth.</Text>
         </Row>
         <Row Tag="LOC_GERMANIA_JEC_COMPLETED_PROGRESSION_TREEB_DESCRIPTION">
             <Text>{1_reward}.</Text>
         </Row>
         <Row Tag="LOC_GERMANIA_JEC_COMPLETED_PROGRESSION_TREEC_NAME">
-            <Text>Germania’s pride lies in its military.</Text>
+            <Text>Illyria’s pride lies in its military.</Text>
         </Row>
         <Row Tag="LOC_GERMANIA_JEC_COMPLETED_PROGRESSION_TREEC_DESCRIPTION">
             <Text>{1_reward}.</Text>
