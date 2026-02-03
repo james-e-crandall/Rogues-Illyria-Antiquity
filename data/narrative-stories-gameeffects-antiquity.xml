@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
-    <Requirement id="REQ_STORY_CIVILIZATION_GERMANIA" type="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES">
+    <Requirement id="REQ_STORY_CIVILIZATION_ILLYRIA" type="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES">
         <Argument name="CivilizationType">CIVILIZATION_ILLYRIA_ROG</Argument>
     </Requirement>
     <!-- ILLYRIA_ROG_COMPLETED_PROGRESSION_TREE -->
     <RequirementSet id="REQSET_ILLYRIA_ROG_COMPLETED_PROGRESSION_TREEA_NARRATIVE_REQUISITE">
-        <Requirement xref="REQ_STORY_CIVILIZATION_GERMANIA"/>
+        <Requirement xref="REQ_STORY_CIVILIZATION_ILLYRIA"/>
     </RequirementSet>
     <RequirementSet id="REQSET_ILLYRIA_ROG_COMPLETED_PROGRESSION_TREEA_NARRATIVE">
-        <Requirement xref="REQ_STORY_CIVILIZATION_GERMANIA"/>
+        <Requirement xref="REQ_STORY_CIVILIZATION_ILLYRIA"/>
         <Requirement type="REQUIREMENT_PLAYER_HAS_COMPLETED_PROGRESSION_TREE_NODE">
             <Argument name="ProgressionTreeNodeType">TRADITION_POLYDYNASTAE</Argument>
             <Argument name="MinDepth">1</Argument>
